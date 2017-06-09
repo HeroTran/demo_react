@@ -1,8 +1,8 @@
 import React from 'react';
-import { issue } from './Issue.scss';
+import  './Issue.scss';
 
 const Issue = () =>
-    <div id={issue}>
+    <div>
        <h1>Hello Issua</h1>
        <span>Hello Dinh!</span>
     </div>;
