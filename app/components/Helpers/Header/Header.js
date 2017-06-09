@@ -1,9 +1,19 @@
 import React from 'react';
 
-const Home = () =>
-    <div>
-        <h1>Hello Home</h1>
-    </div>;
-
-
-export default Home;
+export default class Header extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return (
+      <div className="Header">
+        <div className="Header-search">
+            <form>
+                <input type="search" className="Header-searchInput" placeholder = "Search for Magazine"/>
+                <i className="Header-searchIcon material-icon md-24 dask">search</i>
+            </form>
+        </div>
+      </div>
+    );
+  }
+}
