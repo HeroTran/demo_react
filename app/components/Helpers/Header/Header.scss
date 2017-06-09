@@ -1,7 +1,98 @@
-.footer {
-	margin-top: 20px;
+.Header{
+	background-color: #fff;
+	height: 60px;
+	width: 100%;	
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: nowrap;
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	justify-content: space-between;
+	align-self: center;
+	background-image: url("/app/assets/images/logo-header.png");
+	background-size: auto 30px;
+	background-position: center center !important;
+	.Header-search{
+		
+		.Header-searchInput{
+			position: absolute;
+			padding: 0;
+			width: 24px;
+			height: 60px;
+			z-index: 2;
+			left: auto;
+			right: 40px;
+			margin-right:-40px;
+			font-size: 14px;
+			box-shadow:none;
+			background-color: transparent;
+			cursor:pointer;
+			color: transparent;
+			&::-webkit-input-placeholder {
+				color: transparent;
+			}
 
-	a {
-		padding: 5px 10px 5px 0;
+		}
+	}
+	i{
+		line-height: 60px;
+		cursor: pointer;
+		vertical-align: top;
+		margin:0 0.25em;
+		height: 60px;
+		&:hover {
+			color: $headerHighlight;
+			transition: all 0.4s ease-in-out;
+		}
 	}
 }
+
+input[type=search] {
+	transition: all 0.4s;
+	border: none;
+	outline: none;
+	border-radius: 0;
+	padding: 0;
+	-webkit-appearance: none;
+	-webkit-border-radius: 0px;
+	&::-webkit-search-cancel-button{
+		display:none;
+	}
+}
+
+
+.Header-searchInput:focus {
+	width: 200px;
+    right: 60px;
+    color: $headerTxt;
+    cursor: auto;
+    border-bottom: 1px solid;
+    border-color: $headerHighlight;
+    &::-webkit-input-placeholder {
+    	color: $headerTxtInactive
+    }
+
+}
+
+
+.Header-searchInput:hover + i.Header-searchIcon {
+	color: blue;
+	transition: color 0.4s ease-in-out;
+}
+
+.Header-searchInput.is-filled + i.Header-searchIcon {
+	color: blue;
+	transition: all 0.4s ease-in-out;
+}
+
+i.Header-searchIcon {
+	display: inline-block;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	text-decoration: none;
+	user-select: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+} 

@@ -1,12 +1,14 @@
-import React from 'react';
+import React from 'react'
+import './Header.scss'
 
 export default class Header extends React.Component {
   constructor(props) {
     super(props);
   }
+
   render() {
     return (
-      <div className="Header">
+      <div  className="Header">
         <div className="Header-search">
             <form>
                 <input type="search" className="Header-searchInput" placeholder = "Search for Magazine"/>
