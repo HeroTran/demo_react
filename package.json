@@ -7,7 +7,6 @@
     "test": "",
     "start": "node server",
     "build": "rimraf dist && webpack --config ./webpack.production.config.js --progress --profile --colors"
-    
   },
   "keywords": [
     "es6",
@@ -18,9 +17,10 @@
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "classnames": "^2.2.5",
     "extract-text-webpack-plugin": "^2.1.0",
     "file-loader": "^0.11.1",
-    "classnames": "^2.2.5",
+    "prop-types": "^15.5.10",
     "react": "^15.0.2",
     "react-dom": "^15.3.0",
     "react-hot-loader": "^3.0.0-beta.2",

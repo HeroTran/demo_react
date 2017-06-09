@@ -10,10 +10,12 @@ export default class Header extends React.Component {
     return (
       <div  className="Header">
         <div className="Header-search">
-            <form>
-                <input type="search" className="Header-searchInput" placeholder = "Search for Magazine"/>
-                <i className="Header-searchIcon material-icon md-24 dask">search</i>
-            </form>
+            <div className="Header-expandableSearch">
+                <form>
+                    <input type="search" className="Header-searchInput" placeholder = "Search for Magazine"/>
+                    <i className="Header-searchIcon material-icons md-12 dark">search</i>
+                </form>
+            </div>
         </div>
       </div>
     );
