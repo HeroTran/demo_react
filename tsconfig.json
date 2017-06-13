@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "module": "commonjs",
+        "target": "es5",
+        "sourceRoot": "src",
+        "sourceMap": true,
+        "jsx": "react",
+        "lib": [
+            "dom",
+            "es5",
+            "es6",
+            "es7"
+        ]
+    }
+}
