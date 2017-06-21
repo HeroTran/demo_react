@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="js/twig.min.js"></script>
+        <script src="js/reader.js"></script>
+        {% block head %}
+            <title>{% block title %}{% endblock %}</title>
+        {% endblock %}
+    </head>
+    <body>
+        <div id="container">
+            {% block content %}{% endblock %}
+        </div>
+    </body>
+</html>

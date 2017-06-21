@@ -1,8 +1,193 @@
-#issue{
-	h1{
-		color: red;
+.Main-Issue{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #e3e3e3;
+	overflow: hidden;
+	.form-control{
+		border: 1px solid #53a5e1;
 	}
-	span{
-		color: yellow;
+	.Button-Sidebar.issue-content{
+		top: 70px;
+		left: 20px;
+		background: #e3e3e3;
+		border-color: #e3e3e3;
+		width: 100px;
+		display: block;
+		.navbar-toggle{
+			display: block;
+			margin: 19px 10px;
+			float: left;
+			border-color: #1cace3;
+			border-radius: 0px;
+			-webkit-transition: all 0.5s ease;
+			-moz-transition: all 0.5s ease;
+			-o-transition: all 0.5s ease;
+			transition: all 0.5s ease;
+			float: left;
+			background-color: #fff;
+			&:hover{
+				background-color: #1cace3;
+				border-color: #1cace3;
+				box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+				.icon-bar {
+					background-color: #fff;
+				}
+			}
+			&:focus{
+				background-color: #1cace3;
+				border-color: #1cace3;
+				box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+				.icon-bar {
+					background-color: #fff;
+				}
+			}
+			.icon-bar {
+				background-color: #01a5e1;
+				-webkit-transition: all 0.5s ease;
+				-moz-transition: all 0.5s ease;
+				-o-transition: all 0.5s ease;
+				transition: all 0.5s ease;
+			}
+		}
 	}
+	.open-nav{
+		left: 0px !important;
+		-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+		transition: all 0.5s ease;
+	}
+	.open-btn{
+		left: 270px !important;
+		height: 34px;
+		-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+		transition: all 0.5s ease;
+		.icon-bar:nth-child(2) {
+			display: none;
+		}
+		.icon-bar:nth-child(1) {
+			transform: rotate(45deg);
+			position: relative;
+			top: 2px;
+		}
+		.icon-bar:nth-child(3) {
+			transform: rotate(135deg);
+			position: relative;
+			top: -4px;
+		}
+	}
+	.close-btn{
+		left: 20px !important;
+		-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+		transition: all 0.5s ease;
+	}
+	.nav-issue{
+		padding-bottom: 30px;
+		width: 300px;
+		position: fixed;
+		z-index: 1050;
+		top: 47px;
+		bottom: 0;
+		overflow-y: auto;
+		border-radius: 0;
+		left: -300px;
+		background: #fff;
+		-webkit-transition: all .5s ease;
+		-moz-transition: all .5s ease;
+		-ms-transition: all .5s ease;
+		-o-transition: all .5s ease;
+		transition: all .5s ease;
+		
+		h2{
+			font-size: 20px;
+			text-align: center;
+			color: #01a5e1;
+			border-bottom: 2px solid #01a8e6;
+			padding: 10px 10px;
+			font-weight: normal;
+			text-transform: uppercase;
+		}
+		.Issue-search{
+			display: block;
+			margin-bottom: 20px;
+		}
+		.Issue-story{
+			display: block;
+			.Each-story{
+				display: block;
+				border-bottom: 1px solid #01a0de;
+				width: 100%;
+				overflow: hidden;
+				padding: 12px 0px;
+				-webkit-transition: all 0.5s ease;
+				-moz-transition: all 0.5s ease;
+				-ms-transition: all .5s ease;
+				-o-transition: all .5s ease;
+				transition: all .5s ease;
+				cursor: pointer;
+				.Story-image{
+					padding: 0px;
+					img{
+						width: 100%;
+						max-width: 100%;
+						height: auto;
+					}
+				}
+				.Story-Content{
+					padding-right: 0px;
+					a{
+						color: #01a8e6;
+					}
+				}
+				a
+				{
+					-webkit-transition: all 0.5s ease;
+					-moz-transition: all 0.5s ease;
+					-ms-transition: all .5s ease;
+					-o-transition: all .5s ease;
+					transition: all .5s ease;
+					position: relative;
+					text-decoration: none;
+					&:hover{
+						    color: #058cc9;
+							padding-left: 2px;
+							display: block;
+
+					}
+				}
+				&.active{
+					background-color: #01a8e6;
+					a{
+						color: #fff;
+						&:hover{
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#page-wrapper{
+	overflow: scroll;
+    width: 100%;
+    max-height: 1124px;
+    padding-bottom: 100px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.container{
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }

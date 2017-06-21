@@ -1,0 +1,62 @@
+{% extends "index.twig" %}
+
+{% block title %}{{ story.title }}{% endblock %}
+
+{% block javascript %}
+{{ parent() }}
+{% endblock %}
+
+{% block stylesheet %}
+{{ parent() }}
+<link rel="stylesheet" href="{{ design }}/stylesheets/landscape.css">
+{% endblock %}
+
+{% block bodyclass %}color_{{ section.color }}{% endblock %}
+{% block bodyid %}story{% endblock %}
+
+{% block content %}
+<div id="t1" class="landscape">
+	<div class="header">
+		<div class="wrapper">
+			<div class="caption">{{ issue.name }} <span>{{ section.name }}</span></div>
+			{% if story.showGallery %}
+			<a href="#" data-rel="amreader:media/gallery:{{story.galleryLink}}" class="icon-camera"></a>
+			{% endif %}
+		</div>
+	</div>
+	<div class="container">
+		<div class="head-info">
+			<div class="inner">
+				{% if story.strap_line != '' %}
+					<p class="strap-line">{{ story.strap_line }}</p>
+				{% endif %}
+				<h1 class="title story_heading_size">{{ story.title }}</h1>
+				{% if story.intro != '' %}
+				<p class="subtitle intro_size">{{ story.intro }}</p>
+				{% endif %}
+				{% if story.byline != '' %}
+				<p class="author">{{ story.byline }}</p>
+				{% endif %}
+
+			</div>
+		</div>
+		{% if story.image|length > 0%}
+		<div class="fristImage image defaultImage {% if (story.image.caption|length > 0) or (story.image.source|length > 0) %}masked{% endif %}" {% if (story.defaultImageLink|length > 0) %}data-rel="amreader:media/gallery:{{story.defaultImageLink}}"{% endif %}>
+			<img src="{{story.image.image_url}}" alt="{{story.image.name}}" width="{{story.image.width}}" height="{{story.image.height}}"/>
+			<figcaption>{{story.image.caption}} <span class="credit">{{story.image.source}}</span></figcaption>
+		</div>
+		{% endif %}
+		{{ story.body }}
+		{% set credit = "" %}
+        {% if story.image.source != "" %}
+        {% set credit = credit ~ story.image.source  ~ ' '%}
+        {% endif %}
+        {% for image in story.related_objects.image  %}
+        {% if image.portrait and image.source != "" %}
+            {% set credit = credit ~ image.source %}
+        {% endif %}
+        {% endfor %}
+        <p class="photo-credit">{% if story.byline != '' %}{{ story.byline }}{% endif %}{% if credit and credit != "" %}{{credit}} {% endif %}</p>
+	</div>
+</div>
+{% endblock %}

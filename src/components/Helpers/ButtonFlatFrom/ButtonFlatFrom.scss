@@ -1,0 +1,45 @@
+.Group-header{
+	margin-bottom: 50px !important;
+}
+.right{
+	float:right;
+}
+.Flatform{
+	width: 100%;
+	display: block;
+	ul{
+		float: right;
+		li{
+			display: inline-block;
+			border: 1px solid #24abe1;
+			margin: 0px 10px;
+			padding: 5px;
+			background: #fff;
+			box-shadow: 1px 1px 1px #03A9F4;
+			cursor: pointer;
+			transition: all 0.5s ease;
+			&:hover{
+				transition: all 0.5s ease;
+				background: #03a9f4;
+    			box-shadow: 1px 1px 1px #fff;
+				i{
+					background-color: #03A9F4;
+					color: #fff;
+				}
+			}
+			i{
+				font-size: 30px;
+				color: #03A9F4;
+			}
+			&.active{
+				background: #03a9f4;
+    			box-shadow: 1px 1px 1px #fff;
+				i{
+					background-color: #03A9F4;
+					color: #fff;
+				}
+
+			}
+		}
+	}
+}

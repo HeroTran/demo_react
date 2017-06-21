@@ -1,10 +1,10 @@
 
 declare namespace State{
 
-    interface Magazine{
+    interface InfoMagazine{
         image:string;
         siteId:string;
-        siteName:string;
+        name:string;
     }
 
     interface InfoConfig{
@@ -14,4 +14,15 @@ declare namespace State{
         siteUser:string;
         sitePass:string;
     }
+
+   
+
+    interface ListMagazine{
+        listMagazine:InfoMagazine[];
+        infoConfig : InfoConfig;
+        isLoadding:boolean;
+        isShow:boolean;
+        isError:string;
+        query: string;
+    } 
 }

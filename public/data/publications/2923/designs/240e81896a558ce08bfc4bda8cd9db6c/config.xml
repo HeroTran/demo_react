@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<designpack id="am-dp1">
+	<name>Design pack 1</name>
+	<designer>Kevin</designer>
+	<created-date>8 September 2012</created-date>
+	<story>
+		<landscape>
+			<layout></layout>
+		</landscape>
+		<portrait>
+			<layout></layout>
+		</portrait>
+	</story>
+	<section>
+		<landscape>
+			<layout></layout>
+		</landscape>
+		<portrait>
+			<layout></layout>
+		</portrait>
+		<color>
+			<item>d11a1f</item>
+		</color>
+	</section>
+</designpack>

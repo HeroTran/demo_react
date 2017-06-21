@@ -8,17 +8,13 @@ import reducers from '../reducers';
 interface Props extends React.Props<App> {
 }
 
-let store = createStore(reducers);
-
 export default class App extends React.Component<Props, {}> {
-   public render() {
-       return (
-         <Provider store={store}>
-            <div>
-              <Header/>
-                {this.props.children}
-              </div>
-         </Provider>
-       );
+  public render() {
+    return (
+      <div className="content-app">
+        <Header />
+        {this.props.children}
+      </div>
+    );
   }
 }

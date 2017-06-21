@@ -1,0 +1,31 @@
+.Group-header{
+	margin-bottom: 50px !important;
+}
+
+.Pannel{
+	width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    float: left;
+	
+	ul{
+		
+		li{
+			cursor: pointer;
+			display: inline-block;
+			width: 50% !important;
+			height: 40px;
+			line-height: 40px;
+			background-color: #9E9E9E;
+			color: #fff;
+			font-size: 15px;
+			&.active-pannel{
+				background-color: #03a9f4;
+			}
+			
+		}
+	}
+}
+
+

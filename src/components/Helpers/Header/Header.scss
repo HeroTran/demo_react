@@ -11,6 +11,17 @@
 	align-self: center;
 	background-size: auto 30px;
 	background-position: center center !important;
+	.Header-Home{
+		width: 100%;
+		display: inline-block;
+		padding-left: 20px;
+		text-align: center;
+		img{
+			width: 100px;
+    		margin-top: 18px;
+			cursor: pointer;
+		}
+	}
 	.Header-search{
 		float: right;
 		display: block;

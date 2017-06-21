@@ -1,0 +1,131 @@
+{
+	"variables": [],
+	"info": {
+		"name": "devtool",
+		"_postman_id": "e3d93fe9-a7eb-fb6e-c948-bffa4cb33f6a",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET ISSUES ",
+			"request": {
+				"url": "http://localhost:3000/sites/958/issues",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":958,\n\t\"name\":\"Playboy\",\n\t\"url\":\"http://site-958.audiencemedia.com/api/amm/v1/auth-issues\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "STORE ISSUE",
+			"request": {
+				"url": "http://localhost:3000/sites/958/issues/11",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":958,\n\t\"name\":\"Playboy\",\n\t\"url\":\"http://site-958.audiencemedia.com/api/amm/v1/auth-issues\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GET ISSUE DATA",
+			"request": {
+				"url": "http://localhost:3000/publications/958/11/32.js",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":958,\n\t\"name\":\"Playboy\",\n\t\"url\":\"http://site-958.audiencemedia.com/api/amm/v1/auth-issues\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GET SITES",
+			"request": {
+				"url": "http://localhost:3000/sites",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":958,\n\t\"name\":\"Playboy\",\n\t\"url\":\"http://site-958.audiencemedia.com/api/amm/v1/auth-issues\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "ADD SITE",
+			"request": {
+				"url": "http://localhost:3000/sites",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":958,\n\t\"name\":\"Playboy\",\n\t\"url\":\"http://site-958.audiencemedia.com/api/amm/v1/auth-issues\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE ISSUES ",
+			"request": {
+				"url": "http://localhost:3000/sites/958/issues/11",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":958,\n\t\"name\":\"Playboy\",\n\t\"url\":\"http://site-958.audiencemedia.com/api/amm/v1/auth-issues\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

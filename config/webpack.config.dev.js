@@ -148,7 +148,7 @@ module.exports = {
         loader: require.resolve('url-loader'),
         options: {
           limit: 10000,
-          name: 'static/media/[name].[hash:8].[ext]',
+          name: 'static/media/[name].[ext]',
         },
       },
       // Process JS with Babel.
@@ -167,6 +167,7 @@ module.exports = {
       {
         test: /\.(ts|tsx)$/,
         include: paths.appSrc,
+        exclude: ["./data"],
         loader: ['react-hot-loader/webpack', 'awesome-typescript-loader']
       },
       // "postcss" loader applies autoprefixer to our CSS.

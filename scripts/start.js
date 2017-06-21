@@ -10,6 +10,10 @@ process.env.NODE_ENV = 'development';
 process.on('unhandledRejection', err => {
   throw err;
 });
+var express = require('express');
+var server = require('../server/server.js');
+var app = express();
+var webpackDevMiddleware = require('webpack-dev-middleware');
 
 // Ensure environment variables are read.
 require('../config/env');
@@ -64,22 +68,29 @@ choosePort(HOST, DEFAULT_PORT)
       proxyConfig,
       urls.lanUrlForConfig
     );
-    const devServer = new WebpackDevServer(compiler, serverConfig);
+
+    app.use(webpackDevMiddleware(compiler, serverConfig));
+    app.use(express.static(serverConfig.contentBase));
+
+    server(app);
+   
+    //const devServer = new WebpackDevServer(compiler, serverConfig);
     // Launch WebpackDevServer.
-    devServer.listen(port, HOST, err => {
+    app.listen(port, HOST, err => {
       if (err) {
         return console.log(err);
       }
       if (isInteractive) {
         clearConsole();
       }
-      console.log(chalk.cyan('Starting the development server...\n'));
+      console.log(chalk.cyan('Starting the development server at ',port));
+
       openBrowser(urls.localUrlForBrowser);
     });
 
     ['SIGINT', 'SIGTERM'].forEach(function(sig) {
       process.on(sig, function() {
-        devServer.close();
+        //app.close();
         process.exit();
       });
     });

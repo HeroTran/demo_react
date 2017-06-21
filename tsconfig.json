@@ -1,6 +1,5 @@
 {
     "compilerOptions": {
-        "allowJs": true,
         "module": "commonjs",
         "target": "es5",
         "sourceRoot": "src",
@@ -12,5 +11,9 @@
             "es6",
             "es7"
         ]
-    }
+    },
+    "include": [
+        "./src/**/*",
+        "./node_modules/@types/**/*"
+    ]
 }
