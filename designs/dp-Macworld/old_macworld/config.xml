@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<designpack id="am-dp1">
+	<name>Mac World</name>
+	<designer>Kevin</designer>
+	<created-date>29 September 2015</created-date>
+	<story>
+		<landscape>
+			<layout type="story" orientation="landscape" id="am-landscape-1">
+				<name>Create Opener</name>
+				<link>create_article_main-l.twig</link>
+				<related>am-landscape-1</related>
+				<thumbnail>create_article_main-l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-2">
+				<name>Create Inside</name>
+				<link>create_article_02-l.twig</link>
+				<related>am-landscape-2</related>
+				<thumbnail>create_article_02-l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-3">
+				<name>Create Review Opener</name>
+				<link>create_review-l.twig</link>
+				<related>am-landscape-3</related>
+				<thumbnail>create_review_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-4">
+				<name>Create Rev Inside</name>
+				<link>create_review_02-l.twig</link>
+				<related>am-landscape-4</related>
+				<thumbnail>create_review_02_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+
+			<layout type="story" orientation="landscape" id="am-landscape-5">
+				<name>Feature 1</name>
+				<link>feature_01-l.twig</link>
+				<related>am-portrait-5</related>
+				<thumbnail>feature_01_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-6">
+				<name>Feature 2</name>
+				<link>feature_02-l.twig</link>
+				<related>am-landscape-6</related>
+				<thumbnail>feature_02_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+
+			<layout type="story" orientation="landscape" id="am-landscape-7">
+				<name>IOS Accessories</name>
+				<link>ioscentral_accessories-l.twig</link>
+				<related>am-landscape-7</related>
+				<thumbnail>ioscentral_accessories_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+
+			<layout type="story" orientation="landscape" id="am-landscape-8">
+				<name>App Store</name>
+				<link>ioscentral_appstore-l.twig</link>
+				<related>am-landscape-8</related>
+				<thumbnail>ioscentral_appstore_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-9">
+				<name>IOS Opener</name>
+				<link>ioscentral_article_main-l.twig</link>
+				<related>am-landscape-9</related>
+				<thumbnail>ioscentral_article_main_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-10">
+				<name>IOS Inside</name>
+				<link>ioscentral_article_01-l.twig</link>
+				<related>am-landscape-10</related>
+				<thumbnail>ioscentral_article_01_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-11">
+				<name>IOS Review Opener</name>
+				<link>ioscentral_review-l.twig</link>
+				<related>am-landscape-11</related>
+				<thumbnail>ioscentral_review_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-12">
+				<name>IOS Rev Inside</name>
+				<link>ioscentral_review_02-l.twig</link>
+				<related>am-landscape-12</related>
+				<thumbnail>ioscentral_review_02_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+
+			<layout type="story" orientation="landscape" id="am-landscape-13">
+				<name>MU Opener</name>
+				<link>macuser_article_01-l.twig</link>
+				<related>am-landscape-13</related>
+				<thumbnail>macuser_article_01_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-14">
+				<name>MU Inside</name>
+				<link>macuser_article_02-l.twig</link>
+				<related>am-landscape-14</related>
+				<thumbnail>macuser_article_02_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+
+			<layout type="story" orientation="landscape" id="am-landscape-15">
+				<name>Hot Stuff</name>
+				<link>macuser_hotstuff-l.twig</link>
+				<related>am-landscape-15</related>
+				<thumbnail>macuser_hotstuff_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-16">
+				<name>MU Review Opener</name>
+				<link>macuser_review_01-l.twig</link>
+				<related>am-landscape-16</related>
+				<thumbnail>macuser_review_01_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-17">
+				<name>MU Rev Inside</name>
+				<link>macuser_review_02-l.twig</link>
+				<related>am-landscape-17</related>
+				<thumbnail>macuser_review_02_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+
+
+			<layout type="story" orientation="landscape" id="am-landscape-18">
+				<name>WM Opener</name>
+				<link>workingmac-l.twig</link>
+				<related>am-landscape-18</related>
+				<thumbnail>workingmac_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+
+			<layout type="story" orientation="landscape" id="am-landscape-19">
+				<name>WM Inside</name>
+				<link>workingmac_02-l.twig</link>
+				<related>am-landscape-19</related>
+				<thumbnail>workingmac_02_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-20">
+				<name>WM Review Opener</name>
+				<link>workingmac_review-l.twig</link>
+				<related>am-landscape-20</related>
+				<thumbnail>workingmac_review_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-21">
+				<name>WM Rev Inside</name>
+				<link>workingmac_review_02-l.twig</link>
+				<related>am-landscape-21</related>
+				<thumbnail>workingmac_review_02_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+
+			<layout type="story" orientation="landscape" id="am-landscape-22">
+				<name>HD</name>
+				<link>helpdesk-l.twig</link>
+				<related>am-landscape-22</related>
+				<thumbnail>helpdesk_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-23">
+				<name>HD Review Opener</name>
+				<link>helpdesk_review-l.twig</link>
+				<related>am-landscape-23</related>
+				<thumbnail>helpdesk_review_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-24">
+				<name>HD Rev Inside</name>
+				<link>helpdesk_review_02-l.twig</link>
+				<related>am-landscape-24</related>
+				<thumbnail>helpdesk_review_02_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+
+			<layout type="story" orientation="landscape" id="am-landscape-25">
+				<name>PL Opener</name>
+				<link>playlist_article_main-l.twig</link>
+				<related>am-landscape-25</related>
+				<thumbnail>playlist_article_main-l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-26">
+				<name>PL Inside</name>
+				<link>playlist_article_02-l.twig</link>
+				<related>am-landscape-26</related>
+				<thumbnail>playlist_article_02-l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-27">
+				<name>PL Review Opener</name>
+				<link>playlist_review-l.twig</link>
+				<related>am-landscape-27</related>
+				<thumbnail>playlist_review-l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-28">
+				<name>PL Rev Inside</name>
+				<link>playlist_review_02-l.twig</link>
+				<related>am-landscape-28</related>
+				<thumbnail>playlist_review_02-l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-29">
+				<name>Feature 03</name>
+				<link>feature_03-l.twig</link>
+				<related>am-landscape-29</related>
+				<thumbnail>feature_03_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+		</landscape>
+
+		<portrait>
+			<layout type="story" orientation="portrait" id="am-portrait-1">
+				<name>Create Opener</name>
+				<link>create_article_main.twig</link>
+				<related>am-portrait-1</related>
+				<thumbnail>create_article_main.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-2">
+				<name>Create Inside</name>
+				<link>create_article_02.twig</link>
+				<related>am-portrait-2</related>
+				<thumbnail>create_article_02.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-3">
+				<name>Create Review Opener</name>
+				<link>create_review.twig</link>
+				<related>am-portrait-3</related>
+				<thumbnail>create_review.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-4">
+				<name>Create Rev Inside</name>
+				<link>create_review_02.twig</link>
+				<related>am-portrait-4</related>
+				<thumbnail>create_review_02.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+
+			<layout type="story" orientation="portrait" id="am-portrait-5">
+				<name>Feature 1</name>
+				<link>feature_01.twig</link>
+				<related>am-portrait-5</related>
+				<thumbnail>feature_01.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-6">
+				<name>Feature 2</name>
+				<link>feature_02.twig</link>
+				<related>am-portrait-6</related>
+				<thumbnail>feature_02.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+
+			<layout type="story" orientation="portrait" id="am-portrait-7">
+				<name>IOS Accessories</name>
+				<link>ioscentral_accessories.twig</link>
+				<related>am-portrait-7</related>
+				<thumbnail>ioscentral_accessories.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+
+			<layout type="story" orientation="portrait" id="am-portrait-8">
+				<name>App Store</name>
+				<link>ioscentral_appstore.twig</link>
+				<related>am-portrait-8</related>
+				<thumbnail>ioscentral_appstore.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-9">
+				<name>IOS Opener</name>
+				<link>ioscentral_article_main.twig</link>
+				<related>am-portrait-9</related>
+				<thumbnail>ioscentral_article_main.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-10">
+				<name>IOS Inside</name>
+				<link>ioscentral_article_01.twig</link>
+				<related>am-portrait-10</related>
+				<thumbnail>ioscentral_article_01.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-11">
+				<name>IOS Review Opener</name>
+				<link>ioscentral_review.twig</link>
+				<related>am-portrait-11</related>
+				<thumbnail>ioscentral_review.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-12">
+				<name>IOS Rev Inside</name>
+				<link>ioscentral_review_02.twig</link>
+				<related>am-portrait-12</related>
+				<thumbnail>ioscentral_review_02.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+
+			<layout type="story" orientation="portrait" id="am-portrait-13">
+				<name>MU Opener</name>
+				<link>macuser_article_01.twig</link>
+				<related>am-portrait-13</related>
+				<thumbnail>macuser_article_01.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-14">
+				<name>MU Inside</name>
+				<link>macuser_article_02.twig</link>
+				<related>am-portrait-14</related>
+				<thumbnail>macuser_article_02.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+
+			<layout type="story" orientation="portrait" id="am-portrait-15">
+				<name>Hot Stuff</name>
+				<link>macuser_hotstuff.twig</link>
+				<related>am-portrait-15</related>
+				<thumbnail>macuser_hotstuff.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-16">
+				<name>MU Review Opener</name>
+				<link>macuser_review_01.twig</link>
+				<related>am-portrait-16</related>
+				<thumbnail>macuser_review_01.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-17">
+				<name>MU Rev Inside</name>
+				<link>macuser_review_02.twig</link>
+				<related>am-portrait-17</related>
+				<thumbnail>macuser_review_02.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+
+
+			<layout type="story" orientation="portrait" id="am-portrait-18">
+				<name>WM Opener</name>
+				<link>workingmac.twig</link>
+				<related>am-portrait-18</related>
+				<thumbnail>workingmac.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+
+			<layout type="story" orientation="portrait" id="am-portrait-19">
+				<name>WM Inside</name>
+				<link>workingmac_02.twig</link>
+				<related>am-portrait-19</related>
+				<thumbnail>workingmac_02.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-20">
+				<name>WM Review Opener</name>
+				<link>workingmac_review.twig</link>
+				<related>am-portrait-20</related>
+				<thumbnail>workingmac_review.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-21">
+				<name>WM Rev Inside</name>
+				<link>workingmac_review_02.twig</link>
+				<related>am-portrait-21</related>
+				<thumbnail>workingmac_review_02.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+
+			<layout type="story" orientation="portrait" id="am-portrait-22">
+				<name>HD</name>
+				<link>helpdesk.twig</link>
+				<related>am-portrait-22</related>
+				<thumbnail>helpdesk.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-23">
+				<name>HD Review Opener</name>
+				<link>helpdesk_review.twig</link>
+				<related>am-portrait-23</related>
+				<thumbnail>helpdesk_review.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-24">
+				<name>HD Rev Inside</name>
+				<link>helpdesk_review_02.twig</link>
+				<related>am-portrait-24</related>
+				<thumbnail>helpdesk_review_02.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+
+			<layout type="story" orientation="portrait" id="am-portrait-25">
+				<name>PL Opener</name>
+				<link>playlist_article_main.twig</link>
+				<related>am-portrait-25</related>
+				<thumbnail>playlist_article_main.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-26">
+				<name>PL Inside</name>
+				<link>playlist_article_02.twig</link>
+				<related>am-portrait-26</related>
+				<thumbnail>playlist_article_02.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-27">
+				<name>PL Review Opener</name>
+				<link>playlist_review.twig</link>
+				<related>am-portrait-27</related>
+				<thumbnail>playlist_review.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-28">
+				<name>PL Rev Inside</name>
+				<link>playlist_review_02.twig</link>
+				<related>am-portrait-28</related>
+				<thumbnail>playlist_review_02.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-29">
+				<name>Feature 3</name>
+				<link>feature_03.twig</link>
+				<related>am-portrait-29</related>
+				<thumbnail>feature_03.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+		</portrait>
+	</story>
+	<section>
+		<landscape>
+			<layout></layout>
+		</landscape>
+		<portrait>
+			<layout></layout>
+		</portrait>
+		<color>
+			<item>009bee</item>
+			<item>c20a1f</item>
+			<item>01b2b8</item>
+			<item>ffa700</item>
+			<item>7accb6</item>
+			<item>333192</item>
+			<item>ee2375</item>
+		</color>
+	</section>
+</designpack>

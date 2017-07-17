@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Lexia';
+    src: url('../fonts/Lexia-Thin.ttf')  format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lexia';
+    src: url('../fonts/Lexia-Bold.ttf')  format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lexia';
+  src: url('../fonts/Lexia-XBold.ttf')  format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lexia';
+    src: url('../fonts/Lexia-Black.ttf')  format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gibson';
+    src: url('../fonts/Gibson-Light.otf')  format('opentype'), 
+    url('../fonts/Gibson-Light.ttf')  format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gibson';
+    src: url('../fonts/Gibson-Regular.otf')  format('opentype'),
+    url('Gibson-Regular.ttf')  format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gibson';
+    src: url('../fonts/Gibson-SemiBold.otf')  format('opentype'),
+    url('../fonts/Gibson-SemiBold.ttf')  format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}

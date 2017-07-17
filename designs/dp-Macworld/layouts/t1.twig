@@ -1,0 +1,69 @@
+{% extends "index.twig" %}
+
+{% block title %}{{ story.title }}{% endblock %}
+
+{% block javascript %}
+{{ parent() }}
+{% endblock %}
+
+{% block stylesheet %}
+{{ parent() }}
+<link rel="stylesheet" href="{{ design }}/stylesheets/landscape.css">
+{% endblock %}
+
+{% block bodyclass %}color_{{ section.color }}{% endblock %}
+{% block bodyid %}story{% endblock %}
+
+{% block content %}
+<div id="t1" class="portrait full-screen">
+	<div class="header">
+		<div class="wrapper">
+			<div class="caption">{{ issue.name }} <span>{{ section.name }}</span></div>
+			{% if story.showGallery %}
+			<a href="#" data-rel="amreader:media/gallery:{{story.galleryLink}}" class="icon-camera"></a>
+			{% endif %}
+		</div>
+	</div>
+	{% if story.image|length > 0%}
+	<div class="cover">
+		<div class="default-image masked" style="background-image: url('{{story.image.image_url}}')"></div>
+		<div class="head-info">
+			<div class="inner">
+				<div class="header">
+					<div class="caption">{{ issue.name }} <span>{{ section.name }}</span></div>
+				</div>
+				<p>{{ story.strap_line }}</p>
+				<h2 class="title">{{ story.title }}</h2>
+				{% if story.intro != '' %}
+				<p class="subtitle">{{ story.intro }}</p>
+				{% endif %}
+				{% if story.byline != '' %}
+				<p class="author">{{ story.byline }}</p>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+	{% endif %}
+	<div class="container">
+		<div class="content-area" id="pagination">
+			<div class="content-body">
+				<span class="white-space" style="height: 1px"></span>
+				<span class="white-space" style="height: 1px"></span>
+				<span class="white-space"></span>
+				{{ story.body }}
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="wrapper clearfix">
+			<div class="page_info">
+				Page <span id="c-page">1</span> of <span id="t-page">1</span>
+			</div>
+			<div class="pagination clearfix">
+				<a href="#" class="go-prev" data-rel="amreader:go-prev">Previous Story</a>
+				<a href="#" class="go-next" data-rel="amreader:go-next">Next Story</a>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

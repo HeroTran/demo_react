@@ -1,0 +1,56 @@
+{% extends "index.twig" %}
+
+{% block title %}{{ story.title }}{% endblock %}
+
+{% block javascript %}
+{{ parent() }}
+{% endblock %}
+
+{% block stylesheet %}
+{{ parent() }}
+	<link rel="stylesheet" href="{{ design }}/stylesheets/article_whatsnew.css">
+{% endblock %}
+
+{% block bodyclass %}color_{{ section.color }}{% endblock %}
+{% block bodyid %}story{% endblock %}
+
+{% block content %}
+<div id="article-whats-new" class="portrait enable-dropcap">
+<div class="header">
+	<span>	{% if story.strap_line != '' %}
+				{{ story.strap_line }}
+			{% else %}{{section.name}}
+			{% endif %}</span>
+</div>
+	<div class="container">
+		<div class="content-area" id="pagination">
+			<div class="content-body">
+				{% if story.image|length > 0%}
+				<div class="default-image" data-rel="amreader:media/gallery:{{story.defaultImageLink}}">
+					<img src="{{story.image.image_url}}"/>
+					<figcaption>{{story.image.caption}}</figcaption>
+				</div>
+				{% endif %}
+				<div class="head-info">
+					{% if story.sub_title != '' %}
+						<p class="sub_title">{{ story.sub_title }}</p>
+					{% endif %}
+					<h3 class="title">{{ story.title }}</h3>
+					{% if story.byline != '' %}
+					<p class="byline">{{ story.byline }}</p>
+					{% endif %}
+				</div>
+				<div class="right_content">
+				{{ story.body }}
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<p><span>PCMAG</span> DIGITAL EDITION</p>
+		{% if story.issue_name != '' %}
+			<p class="issue-name">{{ issue.name }}</p>
+		{% endif %}
+	</div>
+</div>
+{% endblock %}

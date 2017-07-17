@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders a snapshot 1`] = `
+<div
+  className="content-app"
+>
+  <div
+    className="Header"
+  >
+    <div
+      className="Header-Home"
+    >
+      <a
+        onClick={[Function]}
+        style={Object {}}
+      >
+        <img
+          alt="App dev Tool"
+          src="/images/logo-header.png"
+        />
+      </a>
+    </div>
+  </div>
+</div>
+`;

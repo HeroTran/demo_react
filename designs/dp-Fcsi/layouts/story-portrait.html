@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block head %}
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+            <title>{% block title %}{% endblock %}</title>
+			{% block javascript %}
+				<script src="{{ design }}/javascripts/jquery-2.0.2.min.js"></script>
+				<script src="{{ design }}/javascripts/script.js"></script>
+			{% endblock %}
+			{% block stylesheet %}
+				<link rel="stylesheet" href="{{ design }}/stylesheets/style.css">
+				<link rel="stylesheet" href="{{ design }}/stylesheets/fonts.css">
+			{% endblock %}
+        {% endblock %}
+    </head>
+    <body class="{% block bodyclass %}{% endblock %} mode-{{ mode }} portrait text-size-{{ fontSize }} {{ platform }}" id="story">
+        {% block content %}{% endblock %}
+    </body>
+</html>

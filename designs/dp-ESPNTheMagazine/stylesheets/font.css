@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'AImpacto';
+  src: url('../fonts/AImpacto-Regular.otf')  format('opentype'), 
+  url('../fonts/AImpacto-Regular.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+	font-family: 'Geogrotesque';
+	src: url('../fonts/Geogrotesque-Medium.otf')  format('opentype'),
+	url('../fonts/Geogrotesque-Medium.ttf')  format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Geogrotesque';
+	src: url('../fonts/Geogrotesque-SemiBold.otf')  format('opentype'),
+	url('../fonts/Geogrotesque-SemiBold.ttf')  format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Geogrotesque';
+	src: url('../fonts/Geogrotesque-Bold.otf')  format('opentype'),
+	url('../fonts/Geogrotesque-Bold.ttf')  format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GeogrotesqueCond';
+	src: url('../fonts/GeogrotesqueCond-Rg.otf')  format('opentype'),
+	url('../fonts/GeogrotesqueCond-Rg.ttf')  format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GeogrotesqueCond';
+	src: url('../fonts/GeogrotesqueCond-RgIt.otf')  format('opentype'),
+	url('../fonts/GeogrotesqueCond-RgIt.ttf')  format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'GeogrotesqueCond';
+	src: url('../fonts/GeogrotesqueCond-Bd.otf')  format('opentype'),
+	url('../fonts/GeogrotesqueCond-Bd.ttf')  format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GeogrotesqueCond';
+	src: url('../fonts/GeogrotesqueCond-SmBd.otf')  format('opentype'),
+	url('../fonts/GeogrotesqueCond-SmBd.ttf')  format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GeogrotesqueComp';
+	src: url('../fonts/GeogrotesqueComp-Bd.otf')  format('opentype'),
+	url('../fonts/GeogrotesqueComp-Bd.ttf')  format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Tungsten';
+	src: url('../fonts/Tungsten-Semibold.otf')  format('opentype'),
+	url('../fonts/Tungsten-Semibold.ttf')  format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TungstenNarrow';
+	src: url('../fonts/TungstenNarrow-Bold.otf')  format('opentype'),
+	url('../fonts/TungstenNarrow-Bold.ttf')  format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TungstenNarrow';
+	src: url('../fonts/TungstenNarrow-Semibold.otf')  format('opentype'),
+	url('../fonts/TungstenNarrow-Semibold.ttf')  format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TungstenCondensed';
+	src: url('../fonts/TungstenCondensed-Black.otf')  format('opentype'),
+	url('../fonts/TungstenCondensed-Black.ttf')  format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: 'MillerText-Roman';
+  src: url('../fonts/MillerText-Roman.otf')  format('opentype'), 
+  url('../fonts/MillerText-Roman.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

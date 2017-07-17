@@ -1,0 +1,135 @@
+<p class="byline"><b>BY JOHN L. JACOBI</b></p>
+
+<div class="">		
+
+    
+        
+    
+                                                                                                                                            <img src="/var/site_496/storage/images/media2/images/nas-hub-image/399143-1-eng-US/nas-hub-image.jpg" width="949" height="675"  style="border: 0px  ;" alt="NAS-hub-image" title="NAS-hub-image" />
+        		<figcaption style="display:none">
+</figcaption>
+    
+    
+    
+    </div><p><b>I</b>f you know anything about NAS (Network Attached Storage), you know that it’s a great centralized backup receptacle for your PCs. If you didn’t know, we just told you. Actually, the name is bit of a giveaway: NAS is storage that you attach via ethernet or Wi-Fi and access across the network. What that <i>doesn’t</i> tell you is that most NAS boxes have the smarts of a PC, with a full-blown app environment that includes extensive backup abilities.</p>
+<p>But there are two things that even NAS aware users might not realize: First, many NAS boxes are perfectly capable of backing up data from PCs running any type of operating system (e.g., Windows, OS X, or Linux) from anywhere, using nothing more than their integrated utilities. All you need to do is configure the PC to give up its data, and then use the NAS box to grab it.</p>
+<p>Second, most NAS boxes can also sync with OneDrive, Google Drive, DropBox and other cloud services to keep your <i>mobile</i> data backed up, too. Sadly, Apple’s iCloud is one of the few services that is not widely supported. But there are ways, and I’ll cover NAS/online syncing at the end for this article.</p>
+<p>There are of course any number of ways to back up to a NAS box that can be invoked locally; i.e., from the PC or device you want to back up. But nearly all involve installing software or client apps or using native backup solutions. Some NAS vendors even provide their own proprietary client/server solutions. Indeed, if you want to back up whole partitions or drives to images, you can only do it from your PC.</p>
+<p class="pullQuote">Most NAS boxes can also sync with OneDrive, Google Drive, DropBox and other cloud services to keep your mobile data backed up, too.</p>
+<h3><b>BACKUP TO NAS USING NAS SOFTWARE</b></h3><p>But if you’re like me, the last thing you want is yet another program bugging you with reminders, warnings, and other messages, not to mention chewing up CPU cycles that you might want for more useful purposes. Why not just use the integrated file-sharing capabilities of computers and leverage the software on the NAS box, instead?</p>
+<p>I’ll show you how to use the backup and sync apps on a NAS box in a bit, but first you need to select a sharing/transfer protocol and configure your computers.You have two choices: SMB (Server Message Block), which is simple to set up on PCs, or FTP (File Transfer Protocol), which can work both locally and remotely. FTP is almost universally supported by NAS boxes for remote-to-local backup, while for some reason, SMB isn’t always.</p>
+<p>Your NAS box might choose the protocol for you. WD, for instance, only supports FTP for backing up to the box, Seagate supports SMB and FTP, while Synology doesn’t support either on many of its less-expensive boxes.</p>
+<p>The chart lists some of the more popular NAS box vendors and which protocols they support for remote to local backup.</p>
+
+<div class="">		
+
+    
+        
+    
+                                                                                                                                            <img src="/var/site_496/storage/images/media2/images/f0087-0160/397204-1-eng-US/f0087-012.jpg" width="498" height="227"  style="border: 0px  ;" alt="f0087-01" title="f0087-01" />
+        		<figcaption style="display:none">
+<p><b>Not every NAS box manufacturer supports both the SMB and FTP protocols. Synology supports both, but only on its more-expensive models.</b></p>
+</figcaption>
+    
+    
+    
+    </div><h3><b>FILE SHARING/SMB</b></h3><p>The simplest way to back up computers on a local network is via SMB. It’s the standard network protocol for Windows PCs, and is what is used by Windows simply as <i>file sharing.</i>But it’s also supported by Macs and Linux PCs. In fact most NAS boxes run some form of Linux.</p>
+<p>The basic concept here is to enable sharing for each folder on your PCs you want to back up, then simply point the NAS box to those shares and tell it to back them up. Personally, I share entire drives, then select the folders to back up using the app on the NAS box, but sharing only specific folders is fine as well. Make note of the IP address, user name and password for every PC you want to back up. Next is a step-by-step description of how to enable sharing a folder on Windows.</p>
+
+<div class="">		
+
+    
+        
+    
+                                                                                                                                            <img src="/var/site_496/storage/images/media2/images/f0088-0162/397197-1-eng-US/f0088-012.jpg" width="361" height="495"  style="border: 0px  ;" alt="f0088-01" title="f0088-01" />
+        		<figcaption style="display:none">
+</figcaption>
+    
+    
+    
+    </div><p>Setting up a Windows PC starts in the S<i>haring</i> tab in the <i>Properties dialog</i> that pops up when you right-click on a drive or folder and select <i>Properties</i> from the context menu.</p>
+<p>Once the dialog is open, click on <i>Advanced Sharing</i>. In the dialog, check <i>Share this folder</i>, then click on <i>Permissions</i>. Depending on the folder, you might see your user name, or <i>Everyone</i> in the list of users.</p>
+<p>To limit permissions to a single user:</p>
+<p><b>1.</b> Select <i>Everyone</i>, then click <i>Remove</i>.</p>
+<p><b>2.</b> To add a user (required), click on <i>Add</i>, and in the next dialog, type in your user name or the name of the user you’ll be logging on with from the NAS box. Click on the <i>Check</i><i>Name</i> button make sure it’s a legitimate choice and you’ve spelled it correctly. If you have, Windows will underline it, and put the name of your PC or domain in front of it. Click <i>Okay</i>, and you’ll return to the previous dialog.</p>
+<p><b>3.</b> If all you want is to back up the drive or folder, de-select <i>Full Control</i> and <i>Write</i>, leaving <i>Read</i> checked.</p>
+<p>That’s all there is to it for a Windows PC.</p>
+<p>It’s even easier on a Mac as almost everything is already shared by default, but you need to turn on SMB sharing for the user you want to log on as before it will be accessible by the NAS box.</p>
+<h3><b>FTP</b></h3><p>SMB is the easiest for computers on your local network, but how about your mother’s PC across town? Or even your downtown office PC? FTP, one of the oldest file transfer technologies around, is just the ticket.</p>
+<p>Setting up your PC as an FTP server takes a few steps, but is not at all difficult. This example is based on Windows 10, but the process will be similar with other versions.</p>
+<p>&gt; Open the Control Panel and go to <i>Programs → Turn Windows features on and off</i>.</p>
+
+<div class="">		
+
+    
+        
+    
+                                                                                                                                            <img src="/var/site_496/storage/images/media2/images/f0089-0145/397190-1-eng-US/f0089-012.jpg" width="523" height="316"  style="border: 0px  ;" alt="f0089-01" title="f0089-01" />
+        		<figcaption style="display:none">
+<p><b>Setting up SMB on the Mac is easier than Windows, and most folders are already shared.</b></p>
+</figcaption>
+    
+    
+    
+    </div><p>&gt; Scroll down to <i>Internet Information Services</i>, expand it, and check the <i>FTP</i> box.</p>
+<p>&gt; Make sure <i>FTP Extensibility</i> and <i>FTP service</i> are both checked.</p>
+<p>&gt; Hit okay and the FTP server will be installed.</p>
+<p>Close the control panel, type <i>IIS</i> into the search field on the task bar, and select the <i>Internet Information Services</i> app that will appear. (See image on the next page.)</p>
+<p><b>1.</b> Look in the far left column for a folder called <i>Sites</i>. Right-click on <i>Sites</i> and select <i>Add FTP site</i>….</p>
+<p><b>2.</b> In the dialog that pops up, give the site a name, such as “MomsFTP,” and browse to the directory that you want as the main source for the site. This will be the directory or folder you want to back up, although if you prefer, you could back up files from other locations to that folder as well. You can add other folders to the site later.</p>
+<p><b>3.</b> Hit next and from the drop-down IP menu select the IP address of the PC you’re on. If you don’t know this, look under<i>Control Panel → Network and internet → Network and sharing center → Active Network → Connection → Details → IPV4</i>. This assumes you’re using a normal home router and haven’t switched to IPV6.</p>
+<p><b>4.</b> Make sure Start FTP site automatically is selected, then select <i>No SSL</i> (assuming only local access from your home network), or leave it unselected if you’ll be backing up from a remote location, and again click <i>Next</i>.</p>
+<p><b>5.</b> On the next page, leave <i>Basic security</i> checked. Only check <i>Anonymous access</i> if you want everyone to be able to see the site without entering a username and password. This is probably a bad idea for most of us. The username and password will be the Windows username and password for the PC you’re setting up.</p>
+<p><b>6.</b> Click <i>Finish</i> and your site should be up and running.</p>
+<p>To add additional folders to the site, right-click on the name of the FT<i>P site in</i> the column to the left (once it’s up and running), and select Add Virtual Directory. The<i>n simply browse to the folder (or drive) you want and add it. Easy Peasy. Note: Depend</i>ing on your NAS box, you might need to switch between MS-DOS and UNIX browsing under IIS → FTP site → Directory browsing. Otherwise, folder names may not appear.</p>
+
+<div class="">		
+
+    
+        
+    
+                                                                                                                                            <img src="/var/site_496/storage/images/media2/images/f0090-0154/397183-1-eng-US/f0090-012.jpg" width="627" height="384"  style="border: 0px  ;" alt="f0090-01" title="f0090-01" />
+        		<figcaption style="display:none">
+<p><b>You can create FTP sites using the Windows Internet Information Services console, after you’ve enabled it under Control Panel → Programs → Add or remote programs → Turn Windows features on and off.</b></p>
+</figcaption>
+    
+    
+    
+    </div><h3><b>SET UP YOUR MAC AS AN FTP SITE</b></h3><p>To enable the FTP server on MacOS, open a Terminal, paste the following at the command prompt, and hit enter:</p>
+<p><b>sudo -s launchctl load -w / System/Library/LaunchDaemons/ftp. plist</b></p>
+<p>To disable the FTP server, paste this and hit enter.</p>
+<p><b>sudo -s launchctl unload -w / System/Library/LaunchDaemons/ftp. plist</b></p>
+<p>Unlike with Windows, all folders will be available by default. Yes, it’s easier than Windows once you get past using the Terminal. Note that drives and their contents are found under the <i>Volumes</i> folder.</p>
+<h3><b>SET UP YOUR NAS BOX TO BACK UP</b></h3><p>Now for the fun part: Setting up the backup job on your NAS box. I don’t have the room to lay out specific instructions for every NAS box, but it basically goes like this: Open the backup program, select the local directory to receive the backup, choose the SMB or FTP protocol, browse to the IP address of the source and select the folder you want to back up to the box, and then adjust the schedule to taste.</p>
+<p>As mentioned previously, you’ll need three pieces of information to do this: the IP address of the remote PC to be backed up (local and/or public if it’s remote), the user name for the computer, and the password for that user. The NAS box needs this information to find your PC and log on. You might also need the paths of the drives or folders you’ll want to back up, depending on whether your NAS box lets you browse the destination. Most will, with the notable exception of Netgear when using FTP.</p>
+<p>As I mainly use a QNAP HS-251, here are the specific instructions for that box. Others will be similar.</p>
+<p>If you haven’t installed <i>Hybrid Backup Sync</i>, go the the <i>Apps</i> section and install it. Many other NAS boxes—such as WD’s and Seagate’s—will already have any backup features pre-installed. From the <i>Overview</i> page, select <i>Sync</i>. Yes, we’re going to do a one-way sync, which is like a mirror of your source. If you want a true backup, i.e. a point-in-time saved image, you’ll need to use other means.</p>
+<p><b>1.</b> Check <i>One-way Sync</i> and then select <i>Sync with remote server</i>.</p>
+<p><b>2.</b> Select <i>Remote to local sync</i>.</p>
+<p><b>3.</b> If you’re going to use normal file sharing, select <i>CIFS/SMB</i>, if you’re going to use <i>FTP</i>, select that.</p>
+<p><b>4.</b> In the <i>Create Sync Job</i> dialog that pops up, give the job a meaningful name such as “Office PC to NAS” and then click on the <i>Settings</i> button below that.</p>
+<p><b>5.</b> In the <i>Add Remote Connection</i> dialog that pops up, give the remote PC a meaningful name such as “Office-PC”, type in its IP address, the user name you want to log on as, and that user’s password. In the folder, type in the share name.</p>
+<p><b>6.</b><i>Test</i>. If you entered everything correctly, and the remote PC is online, you will see <i>Succeed</i>. Click okay and exit.</p>
+<p>Now it’s just a matter of selecting the Local destination folders and Remote source folders from the NAS box and the remote PC. Click Add for each pairing and then save the job.</p>
+
+<div class="">		
+
+    
+        
+    
+                                                                                                                                            <img src="/var/site_496/storage/images/media2/images/f0092-0148/397176-1-eng-US/f0092-012.jpg" width="762" height="470"  style="border: 0px  ;" alt="f0092-01" title="f0092-01" />
+        		<figcaption style="display:none">
+<p><b>Once you’ve opened Hybrid Backup Sync, you’ll want to go to FTP or CIFS/SMB under the remote to local sync menu.</b></p>
+</figcaption>
+    
+    
+    
+    </div><h3><b>SCHEDULING</b></h3><p>If there’s anything at all tricky about using your NAS box and SMB/FTP to back up your stuff, it’s making sure that everything is on when the backup is scheduled to run. In my experience, the backup process requires so little effort on the part of the PC being backed up that it’s unnoticeable, so I set the backup for times I know I’ll most likely be using the PC.</p>
+<p>There’s a backup running as I write and there is absolutely nothing to indicate that the operation is taking place. No slowdowns, no dialogs, no nothing. The only reason I know it’s in progress is checking with the NAS box via its web browser interface. I truly love it.</p>
+<h3><b>CLOUD SYNC</b></h3><p>All NAS boxes feature apps that will sync with online services. Which services and how many of them varies, but the most important are those used for backup by phones: Google Drive and OneDrive. Alas, Apple doesn’t allow access to iCloud from anything other than its own apps. If you’re an iPhone user, I recommend using DropBox.</p>
+<p>QNAP is definitely the heavyweight in terms of the number of other services it supports: Google Drive, Dropbox, Amazon S3, Microsoft Azure, and OneDrive to mention just a few, so this is another item to check when you’re shopping. I’m not going into setting up your phone to back up to the cloud. They all do, so read the instructions.</p>
+<p>Setting up these apps is almost exactly the same as it is from other devices. Generally, the setup will take you quickly to the site of the service where you can okay access by the NAS box and you’re all done. You might have to define a folder to store the synced data, but that’s about it.</p>
+<h3><b>CAVEATS</b></h3><p>I haven’t talked about the security of these operations. They are generally safe, but obviously not suitable for defense contractors. I have no problem using these methods, and I have for decades, but I’m not paranoid about my stuff—there’s nothing there that I care if someone steals. Lost in many security discussions is the theft-worthiness of your data. Worry about credit- card numbers and financial data such as tax returns, not an ebook collection.</p>
+<p>Also what I’ve described is actually a one-way sync, rather than a true static, point-in-time backup. You can, however, define a job as one-time and then change the destination folders. I generally just let my jobs run regularly, then once every few months I also create an image backup. (Using Paragon Backup and Recovery or R-Drive Image.)</p>
+<h3><b>FINAL WORDS</b></h3><p>Warnings aside, the absolute best thing about using a NAS box and this methodology is that once it’s set up, it’s completely transparent and requires zero intervention under normal circumstances. That’s very important as it’s become abundantly clear over my two decades of writing about backup that the hardest part is actually getting around to doing it.</p>
+<p>Once you’ve set your NAS box up, you’ll probably forget it’s running. But if data disaster strikes, you’ll have a big ol’ grin on your face once you remember that you did this.</p>

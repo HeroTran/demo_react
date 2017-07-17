@@ -1,0 +1,46 @@
+
+
+
+
+
+
+
+
+
+
+
+{% extends "story-portrait.twig" %}
+
+{% block title %}{{ story.title }}{% endblock %}
+
+{% block javascript %}
+{{ parent() }}
+{% endblock %}
+
+
+
+{% block bodyclass %}color_{{ section.color }}{% endblock %}
+{% block bodyid %}story{% endblock %}
+
+{% block content %}
+	<section class="template_features features06 page index-0 story portrait column am_page" style="position:absolute; left:0;">
+		{% if story.image|length > 0%}
+		<div class="default_image fristImage image defaultImage {% if (story.image.caption|length > 0) or (story.image.source|length > 0) %}masked{% endif %}" {% if (story.defaultImageLink|length > 0) %}data-rel="amreader:media/gallery:{{story.defaultImageLink}}"{% endif %}>
+			<img class="am_df_image" src="{{story.image.image_url}}" alt="{{story.image.name}}" width="{{story.image.width}}" height="{{story.image.height}}"/>
+			<figcaption>{{story.image.caption}} <span class="credit">{{story.image.source}}</span></figcaption>
+			<div class="caption">
+				<div class="am_title">{{story.title}}</div>
+				<div class="paging"></div>
+			</div>
+		</div>
+		{% endif %}
+	</section>
+	<section class="template_features features06 page index-tween story portrait column am_page" style="position:absolute; left:1024px;">
+		<article class="content clearfix">
+			<div class="column am_body index-0">{{story.body}}
+			</div>
+			<div class="column am_body index-1"></div>
+		</article>
+		<div class="paging"></div>
+	</section>
+{% endblock %}

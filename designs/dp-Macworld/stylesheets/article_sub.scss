@@ -1,0 +1,106 @@
+.article-sub .banner{
+	height: 100px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    font-family: 'ProximaNova';
+	font-size: 15px;
+	line-height: 12px;
+	font-weight: 300;
+	text-transform: uppercase;
+	.logo{
+	    box-sizing: border-box;
+	    padding: 25px 10px 10px 10px;
+	    height: 45px;
+	    display: inline-block;
+	    vertical-align: top;
+	    margin-left: -4px;
+	}
+	.section,{
+	    color: #808080;
+	    box-sizing: border-box;
+	    padding: 25px 10px 10px 10px;
+	    height: 45px;
+	    display: inline-block;
+	    vertical-align: top;
+	    color: #fff;
+	    background-color: #366a9b;
+	}
+}
+.article-sub .text-size-0{
+	.content-body{
+		p.dropcap{
+			.white-space{
+				margin: 4px 0 0 0;
+			}
+		}
+	}
+}
+.mobile .article-sub {
+	.cover {
+		.banner {
+		    height: 60px;
+		    padding: 0 15px 10px 15px;
+		    .section {
+		    	font-size: 12px;
+		    	padding: 30px 5px 5px 5px;
+		    }
+			.logo {
+				font-size: 12px;
+				padding: 30px 5px 5px 5px;
+			}
+			.subtitle {
+				padding: 0;
+			    width: 230px;
+			    font-size: 12px;
+			    line-height: 12px;
+			    margin: 0;
+			}
+		}
+	}
+}
+
+.playlist__article-sub,
+.create__article-sub{
+	.banner .section{
+		background-color: #e39717;
+	}
+	.head-info .author{
+		background-color: #e39717;
+	}
+	.content-area .content-body {
+		> p.done-dot:after{
+			border-left: 5px solid  #e39717 !important;
+			border-right: 5px solid  #e39717 !important;
+		}
+		p.pullQuote,
+		> p.dropcap:first-letter,
+		> p.dropcap .dropcap-letter{
+			color: #e39717;
+		}
+	}
+	.footer .nav-dots .dot.active{
+		background-color: #e39717;
+	}
+}
+.macuser__article-sub{
+	.banner .section{
+		background-color: #366a9b;
+	}
+	.head-info .author{
+		background-color: #366a9b;
+	}
+	.content-area .content-body {
+		> p.done-dot:after{
+			border-left: 5px solid  #366a9b !important;
+			border-right: 5px solid  #366a9b !important;
+		}
+		p.pullQuote,
+		> p.dropcap:first-letter,
+		> p.dropcap .dropcap-letter{
+			color: #366a9b;
+		}
+	}
+	.footer .nav-dots .dot.active{
+		background-color: #366a9b;
+	}
+}

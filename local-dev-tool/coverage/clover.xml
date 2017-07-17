@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1499853777067" clover="3.2.0">
+  <project timestamp="1499853777067" name="All files">
+    <metrics statements="133" coveredstatements="81" conditionals="0" coveredconditionals="0" methods="48" coveredmethods="2" elements="181" coveredelements="83" complexity="0" loc="133" ncloc="133" packages="2" files="3" classes="3">
+      <package name="actions">
+        <metrics statements="108" coveredstatements="74" conditionals="0" coveredconditionals="0" methods="30" coveredmethods="2"/>
+        <file name="SiteAction.ts" path="/Users/hungtran/designpacks/local-dev-tool/src/actions/SiteAction.ts">
+          <metrics statements="60" coveredstatements="26" conditionals="0" coveredconditionals="0" methods="30" coveredmethods="2"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="27" count="1" type="stmt"/>
+          <line num="29" count="1" type="stmt"/>
+          <line num="34" count="1" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="41" count="1" type="stmt"/>
+          <line num="46" count="1" type="stmt"/>
+          <line num="47" count="3" type="stmt"/>
+          <line num="56" count="1" type="stmt"/>
+          <line num="57" count="0" type="stmt"/>
+          <line num="62" count="1" type="stmt"/>
+          <line num="63" count="0" type="stmt"/>
+          <line num="73" count="0" type="stmt"/>
+          <line num="74" count="0" type="stmt"/>
+          <line num="75" count="0" type="stmt"/>
+          <line num="76" count="0" type="stmt"/>
+          <line num="77" count="0" type="stmt"/>
+          <line num="80" count="0" type="stmt"/>
+          <line num="84" count="1" type="stmt"/>
+          <line num="85" count="1" type="stmt"/>
+          <line num="86" count="0" type="stmt"/>
+          <line num="95" count="1" type="stmt"/>
+          <line num="96" count="0" type="stmt"/>
+          <line num="101" count="1" type="stmt"/>
+          <line num="102" count="0" type="stmt"/>
+          <line num="107" count="1" type="stmt"/>
+          <line num="108" count="0" type="stmt"/>
+          <line num="114" count="0" type="stmt"/>
+          <line num="115" count="0" type="stmt"/>
+          <line num="116" count="0" type="stmt"/>
+          <line num="117" count="0" type="stmt"/>
+          <line num="118" count="0" type="stmt"/>
+          <line num="121" count="0" type="stmt"/>
+          <line num="125" count="1" type="stmt"/>
+          <line num="126" count="1" type="stmt"/>
+          <line num="127" count="0" type="stmt"/>
+          <line num="136" count="1" type="stmt"/>
+          <line num="137" count="0" type="stmt"/>
+          <line num="142" count="1" type="stmt"/>
+          <line num="143" count="0" type="stmt"/>
+          <line num="148" count="1" type="stmt"/>
+          <line num="149" count="0" type="stmt"/>
+          <line num="158" count="1" type="stmt"/>
+          <line num="159" count="0" type="stmt"/>
+          <line num="164" count="1" type="stmt"/>
+          <line num="165" count="0" type="stmt"/>
+          <line num="173" count="1" type="stmt"/>
+          <line num="174" count="0" type="stmt"/>
+          <line num="182" count="1" type="stmt"/>
+          <line num="183" count="0" type="stmt"/>
+        </file>
+        <file name="types.ts" path="/Users/hungtran/designpacks/local-dev-tool/src/actions/types.ts">
+          <metrics statements="48" coveredstatements="48" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="20" count="1" type="stmt"/>
+          <line num="21" count="1" type="stmt"/>
+          <line num="22" count="1" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+          <line num="25" count="1" type="stmt"/>
+          <line num="26" count="1" type="stmt"/>
+          <line num="27" count="1" type="stmt"/>
+          <line num="31" count="1" type="stmt"/>
+          <line num="32" count="1" type="stmt"/>
+          <line num="33" count="1" type="stmt"/>
+          <line num="34" count="1" type="stmt"/>
+          <line num="35" count="1" type="stmt"/>
+          <line num="36" count="1" type="stmt"/>
+          <line num="37" count="1" type="stmt"/>
+          <line num="38" count="1" type="stmt"/>
+          <line num="39" count="1" type="stmt"/>
+          <line num="40" count="1" type="stmt"/>
+          <line num="41" count="1" type="stmt"/>
+          <line num="42" count="1" type="stmt"/>
+          <line num="43" count="1" type="stmt"/>
+          <line num="44" count="1" type="stmt"/>
+          <line num="45" count="1" type="stmt"/>
+          <line num="46" count="1" type="stmt"/>
+          <line num="51" count="1" type="stmt"/>
+          <line num="52" count="1" type="stmt"/>
+          <line num="53" count="1" type="stmt"/>
+          <line num="54" count="1" type="stmt"/>
+          <line num="55" count="1" type="stmt"/>
+          <line num="56" count="1" type="stmt"/>
+          <line num="57" count="1" type="stmt"/>
+          <line num="58" count="1" type="stmt"/>
+          <line num="59" count="1" type="stmt"/>
+          <line num="60" count="1" type="stmt"/>
+          <line num="61" count="1" type="stmt"/>
+          <line num="62" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="api">
+        <metrics statements="25" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="18" coveredmethods="0"/>
+        <file name="cms.ts" path="/Users/hungtran/designpacks/local-dev-tool/src/api/cms.ts">
+          <metrics statements="25" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="18" coveredmethods="0"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="26" count="1" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="34" count="1" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="39" count="0" type="stmt"/>
+          <line num="42" count="1" type="stmt"/>
+          <line num="44" count="0" type="stmt"/>
+          <line num="45" count="0" type="stmt"/>
+          <line num="47" count="0" type="stmt"/>
+          <line num="50" count="1" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>

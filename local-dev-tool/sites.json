@@ -1,0 +1,102 @@
+{
+    "496": {
+        "name": "Mac World",
+        "designPack": "dp-Macworld",
+        "url": "http://macworld-us.audiencemedia.com/api/amm/v1/auth-issues",
+        "image": "images/magazines/macworld.png"
+    },
+    "987": {
+        "name": "PC World",
+        "designPack": "dp-PCWorld",
+        "url": "http://pcworld-us.audiencemedia.com/api/amm/v1/auth-issues",
+        "image": "images/magazines/pcworld.jpg"
+    },
+    "874": {
+        "name": "PC Magazine",
+        "designPack": "dp-PCMagazine",
+        "url": "http://pcmagazine-us.audiencemedia.com/api/amm/v1/auth-issues",
+        "image": "images/magazines/pcmag.jpg"
+    },
+    "143": {
+        "name": "ESPN The Magazine",
+        "designPack": "dp-ESPNTheMagazine",
+        "url": "http://espnthemagazine-us.audiencemedia.com/api/amm/v1/auth-issues",
+        "image": "images/magazines/espn_the_magazine.jpg"
+    },
+    "958": {
+        "name": "Default-Playboy",
+        "designPack": "default-design-pack",
+        "url": "http://site-958.audiencemedia.com/api/amm/v1/auth-issues",
+        "image": "images/magazines/playboy.jpg"
+    },
+     "5441": {
+        "name": "Default-Bipolar",
+        "designPack": "default-design-pack",
+        "url": "http://bpmagazine.audiencemedia.com/api/amm/v1/auth-issues",
+        "image": "images/magazines/bipolar.jpg"
+    },
+    "2941": {
+        "name": "DVP GE0",
+        "designPack": "dp-DVPAnchor",
+        "url": "http://geo-de.audiencemedia.com/api/amm/v1/auth-issues",
+        "image": "images/magazines/geo.jpg"
+    },
+    "2839": {
+        "name": "DVP GEO EPOCHE",
+        "designPack": "dp-DVP",
+        "url": "http://geoepoche-de.audiencemedia.com/api/amm/v1/auth-issues",
+        "image": "images/magazines/epoche.jpg"
+    },
+    "3000": {
+        "name": "DVP Geo Special",
+        "designPack": "dp-DVP",
+        "url": "http://geospecial-de.audiencemedia.com/api/amm/v1/auth-issues",
+        "image": "images/magazines/special.jpg"
+    },
+    "5886": {
+        "name": "DVP Barbara",
+        "designPack": "dp-DVP",
+        "url": "http://barbara-de.audiencemedia.com/api/amm/v1/auth-issues",
+        "image": "images/magazines/barbara.jpg"
+    },
+    "3020": {
+        "name": "DVP Orkus",
+        "designPack": "dp-DVP",
+        "url": "http://orkus-de.audiencemedia.com/api/amm/v1/auth-issues",
+        "image": "images/magazines/orkus.jpg"
+    },
+    "2888": {
+        "name": "DVP FEEL GOOD",
+        "designPack": "dp-DVP",
+        "url": "http://dpvdemoapp-de.audiencemedia.com/api/amm/v1/auth-issues",
+        "image": "images/magazines/feel.jpg"
+    },
+    "6964": {
+        "name": "DVP MERIAN Kassel",
+        "designPack": "dp-DVP",
+        "url": "http://meriankassel-de.audiencemedia.com/api/amm/v1/auth-issues",
+        "image": "images/magazines/kassel.jpg"
+    },
+    "5992": {
+        "name": "DVP FÜR SIE Spezial",
+        "designPack": "dp-DVP",
+        "url": "http://frsiespezialthermomixrrezepte-de.audiencemedia.com/api/amm/v1/auth-issues",
+        "image": "images/magazines/spezial.jpg"
+    },
+    "3008": {
+        "name": "DVP sternde",
+        "designPack": "dp-DVP",
+        "url": "http://stern-de.audiencemedia.com/api/amm/v1/auth-issues",
+        "image": "images/magazines/sternde.jpg"
+    },
+    "0000":{
+        "name":"Economia",
+        "designPack":"dp-Economia",
+        "url":"http://economia-live.audiencemedia.com/api/amm/v1/auth-issues"
+    },
+    "0001":{
+        "name":"Fcsi",
+        "designPack":"dp-Fcsi",
+        "url":"http://fcsi-live.audiencemedia.com/api/amm/v1/auth-issues"
+    }
+}

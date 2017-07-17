@@ -1,0 +1,185 @@
+.banner{
+    height: 100px;
+    box-sizing: border-box;
+    padding: 0 20px 0px 20px;
+    font-family: 'ProximaNova';
+	.logo{
+	    font-weight: bold;
+	    display: inline-block;
+	    color: white;
+	    box-sizing: border-box;
+	    height: 46px;
+	    font-size: 15px;
+	    line-height: 10px;
+	    text-transform: uppercase;
+	    padding: 24px 10px 12px 10px;
+	    background-color: #e39717;
+	    vertical-align: top;
+	}
+	.subtitle{
+		text-transform:uppercase;
+		letter-spacing: -0.03em;
+		font-weight: bold;
+		margin-left: 35px;
+		box-sizing: border-box;
+	    font-size: 57px;
+	    color: #555555;
+	    line-height: 50px;
+    	margin-bottom: 12px;
+	}
+}
+
+.header {
+	.caption {
+		span{
+			margin-left: 8px;
+		}
+	}
+}
+.head-info{
+	position: absolute;
+	bottom: 0;
+	padding: 40px 20px 70px 20px;
+	background-color: white;
+}
+.cover {
+	.default-image {
+		background-size:contain !important;
+		background-position: 0 0 !important;
+		height: calc(100% - 100px) !important;
+	}
+}
+.content-body > p {
+	font-weight: 300;
+	font-size: 1em;
+}
+.content-body > p.dropcap:first-letter
+,.content-body > p.dropcap .dropcap-letter
+{
+    color: #e39717;
+    font-weight: 100;
+}
+.content-body {
+	font-family: 'ProximaNova';
+	h3{
+		font-size: 1.33em;
+		font-weight: bold;
+		line-height: 1.1;
+	}
+	> p.done-dot:after {
+		border-left: 5px solid #e39717 !important;
+		border-right: 5px solid #e39717 !important;
+	}
+	figcaption {
+		text-align: left;
+		font-weight: bold;
+		font-size: 0.867em;
+		color: #666666;
+		line-height: 138.46%;
+	}
+	> p.pullQuote {
+    	border-left: 2px solid #e1e1e1;
+	}
+}
+.landscape{
+	.cover{
+		.default-image{
+			background-size:cover !important;
+		}
+	}
+	.banner{
+		.subtitle {
+		    width: 450px;
+		}
+	}
+	.head-info{
+	    position: absolute;
+	    bottom: 70px;
+	    padding: 0 20px;
+	    height: auto;
+	}
+}
+.mobile {
+	.header {
+		display: none;
+	}
+	.cover {
+		width: 100% !important;
+		.banner {
+			padding: 0 15px;
+			margin-bottom: 15px;
+			height: auto;
+			.logo{
+				font-size: 12px;
+			    padding: 28px 5px 5px 5px;
+			    line-height: 12px;
+			    height: 45px;
+			}
+			.subtitle {
+				margin: 8px 0 0 0;
+			    font-size: 15px;
+			    line-height: 166.67%;
+			}
+			.title{
+				margin: 0;
+			    font-size: 37.5px;
+			    line-height: 70.38%;
+			}
+		}
+	}
+	.default-image {
+		background-image: none !important;
+    	height: auto !important;
+	}
+	.head-info {
+		padding: 15px;
+		.title{
+		    font-size: 1.93em;
+		    line-height: 100%;
+		    margin: 0;
+		}
+		.intro {
+		    font-size: 0.86em;
+		    letter-spacing: normal;
+		    margin: 2px 0 0 0;
+		}
+		.author{
+			margin: 8px 0 0 0;
+			font-size: 0.643em;
+		    line-height: 166.67%;
+		    min-height: 15px;
+		    letter-spacing: 0;
+		    box-sizing: border-box;
+		}
+	}
+	.content-body {
+		> p.done-dot:after {
+			border-left: 3px solid #e39717 !important;
+			border-right: 3px solid #e39717 !important;
+		}
+		> p.pullQuote {
+    		font-style: italic;
+    		b {
+    			font-weight: normal;
+    		}
+		}
+	}
+}
+.mode-1 {
+	.portrait, .landscape {
+		.head-info {
+    		background-color: transparent !important;
+		}
+	}
+}
+.ios-9{
+	&.completed{
+		.content-area{
+			.content-body{
+				.dropcap{
+					display: inline-block;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+  "short_name": "Dev Tool",
+  "name": "Create Dev Tool for test magazine",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "80x20",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

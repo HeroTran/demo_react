@@ -1,0 +1,51 @@
+
+{% extends "story-landscape.twig" %}
+
+{% block title %}{{ story.title }}{% endblock %}
+
+{% block javascript %}
+{{ parent() }}
+{% endblock %}
+
+
+
+{% block bodyclass %}color_{{ section.color }}{% endblock %}
+{% block bodyid %}story{% endblock %}
+
+{% block content %}
+<section class="template_international page index-0 story landscape column am_page" style="position:absolute; left:0;">
+		<article class=" clearfix">
+			<div class="column">
+				<div class="am_title">{{story.title}}</div>
+				<div class="am_intro">{{story.intro}}</div>
+				{% if story.image|length > 0%}
+					<div class="fristImage image defaultImage {% if (story.image.caption|length > 0) or (story.image.source|length > 0) %}masked{% endif %}" {% if (story.defaultImageLink|length > 0) %}data-rel="amreader:media/gallery:{{story.defaultImageLink}}"{% endif %}>
+						<img class="am_df_image" src="{{story.image.image_url}}" alt="{{story.image.name}}" width="{{story.image.width}}" height="{{story.image.height}}"/>
+						<figcaption>{{story.image.caption}} <span class="credit">{{story.image.source}}</span></figcaption>
+					</div>
+					{% endif %}
+			</div>
+			<div class="column">
+				<div class="scrollbox">
+					<div class="content">
+						<div class="am_body">{{story.body}}</div>
+					</div>
+				</div>
+			</div>
+		</article>
+		<div class="paging"></div>
+	</section>
+	<section class="template_international page index-tween story landscape column am_page col" style="position:absolute; left:1024px;">
+		<figure class="image_item column">
+			<div class="firgure img" data-orientation="true"></div>
+			<div class="popup">
+				<span class="icon"></span>
+				<div class="img_desc">
+					<h2 class="am_name"></h2>
+					<div class="am_caption"></div>
+				</div>
+			</div>
+		</figure>
+		<div class="paging"></div>
+	</section>
+{% endblock %}

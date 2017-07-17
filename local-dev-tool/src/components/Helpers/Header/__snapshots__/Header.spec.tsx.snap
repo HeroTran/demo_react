@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component render a correct snapshot 1`] = `
+<div
+  className="Header"
+>
+  <div
+    className="Header-Home"
+  >
+    <a
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <img
+        alt="App dev Tool"
+        src="/images/logo-header.png"
+      />
+    </a>
+  </div>
+</div>
+`;

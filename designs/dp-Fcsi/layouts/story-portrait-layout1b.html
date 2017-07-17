@@ -1,0 +1,34 @@
+
+
+
+
+{% extends "story-portrait.html" %}
+
+{% block title %}{{ story.title }}{% endblock %}
+
+{% block javascript %}
+{{ parent() }}
+{% endblock %}
+
+
+
+{% block bodyclass %}color_{{ section.color }}{% endblock %}
+{% block bodyid %}story{% endblock %}
+
+{% block content %}
+<div id="story">
+	<section class="view intelligence page index-0 story portrait column am_page">
+		<header class="background-image">
+			<h3 class="am_sub_title">Heading 3 | {{story.intro}}</h3>
+			<h1 class="am_title">Heading 1 | {{ story.title }}</h1>
+			<div class="default_image fristImage image defaultImage {% if (story.image.caption|length > 0) or (story.image.source|length > 0) %}masked{% endif %}" {% if (story.defaultImageLink|length > 0) %}data-rel="amreader:media/gallery:{{story.defaultImageLink}}"{% endif %}>
+			<img class="am_df_image" src="{{story.image.image_url}}" alt="{{story.image.name}}" width="{{story.image.width}}" height="{{story.image.height}}"/>
+			<figcaption>{{story.image.caption}} <span class="credit">{{story.image.source}}</span></figcaption>
+		</div>
+		</header>
+		<div class="am_body intelligence02">
+		{{ story.body }}
+		</div>
+	</section>
+</div>
+{% endblock %}

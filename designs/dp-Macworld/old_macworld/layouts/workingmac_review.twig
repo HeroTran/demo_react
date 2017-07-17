@@ -1,0 +1,80 @@
+{% extends "index.twig" %}
+
+{% block title %}{{ story.title }}{% endblock %}
+
+{% block javascript %}
+{{ parent() }}
+{% endblock %}
+
+{% block stylesheet %}
+{{ parent() }}
+<link rel="stylesheet" href="{{ design }}/stylesheets/workingmac_review.css">
+{% endblock %}
+
+{% block bodyclass %}color_{{ section.color }}{% endblock %}
+{% block bodyid %}story{% endblock %}
+
+{% block content %}
+<div id="t1" layout="workingmac_review" init="on" class="portrait workingmac_review default-image-one-column enable-dropcap">
+	<div class="header">
+		<div class="wrapper">
+			<div class="caption">WORKING MAC <span>{{ story.sub_title}}</span></div>
+		</div>
+	</div>
+	{% if story.image|length > 0%}
+	<div class="cover">
+		<div class="banner">
+			<div class="section">WORKING MAC</div>
+			<span class="logo">Reviews</span>
+			{% if story.intro != '' %}
+				<span class="subtitle">{{ story.intro}}</span>
+			{% endif %}
+		</div>
+		<div class="head-info"></div>
+	</div>
+	{% endif %}
+	<div class="container">
+		<div class="content-area" id="pagination">
+			<div class="content-body">
+				<div class="head-info">
+					<div class="default-image masked">
+						<img src="{{story.image.image_url}}">
+					</div>
+					{% if story.strap_line != '' %}
+					<p class="strap-line">{{ story.strap_line }}</p>
+					{% endif %}
+					<h2 class="title">{{ story.title }}</h2>
+					{% if story.byline != '' %}
+						<p class="author">{{ story.byline }}</p>
+					{% endif %}
+				</div>
+				{{ story.body }}
+				{% set credit = "" %}
+				{% if story.image.source != "" %}
+				{% set credit = credit ~ story.image.source %}
+				{% endif %}
+				{% if credit and credit != "" %}
+					<span class="photo-credit">{{credit}}</span>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="nav-dots">
+			<span class="dot"></span>
+			<span class="dot active"></span>
+			<span class="dot"></span>
+		</div>
+
+		<div class="wrapper clearfix" style="display:none;">
+			<div class="page_info">
+				Page <span id="c-page">1</span> of <span id="t-page">1</span>
+			</div>
+			<div class="pagination clearfix">
+				<a href="#" class="go-prev" data-rel="amreader:go-prev">Previous Story</a>
+				<a href="#" class="go-next" data-rel="amreader:go-next">Next Story</a>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

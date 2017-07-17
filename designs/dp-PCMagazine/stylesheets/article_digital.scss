@@ -1,0 +1,112 @@
+.header{
+	border-bottom: 3px solid #ff8a00;
+}
+.default-image{
+	margin: 23px 0;
+}
+.default-image figcaption{
+    margin: 0;
+    padding: 10px 15px 0 15px;
+    border-bottom: 0;
+}
+.head-info{
+	margin: 0 15px;
+	padding: 0 0 10px 0;
+	text-align: center;
+}
+.head-info:before, .head-info:after{
+	content: '';
+    display: block;
+    height: 1px;
+    border-bottom: 1px solid #929292;
+    border-top: 1px solid #929292;
+}
+.sub_title{
+    font-family: 'SourceSansPro';
+    font-weight: 300;
+    font-size: 0.8em;
+    line-height: normal;
+    color: #15abe9;
+    margin: 7px 0 0 0;
+    text-transform: uppercase;
+}
+.title{
+    margin: 7px 0 9px 0;
+    font-family: 'AlternateGotNo3D';
+    font-size: 2.224em;
+    line-height: 102.3%;
+}
+.byline{
+    margin: 0 0 10px 0;
+    font-family: 'SourceSansPro';    
+    font-weight: normal;
+    text-transform: capitalize;
+    font-size: 0.8em;
+    line-height: normal;
+    letter-spacing: 0.025em;
+}
+.byline span b {
+    color: #787777;
+}
+.right_content{
+    margin: 12px 15px 0 15px;
+}
+.right_content p.pullQuote{
+    padding: 9px 0 10px 0;
+    font-size: 0.855em;
+    line-height: 139.98%;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.right_content .image figcaption{
+    display: block !important;
+    text-align: left !important;
+    font-family: 'SourceSansPro';
+    font-size: 0.855em;
+    font-style: italic;
+    line-height: 139.98%;
+    margin: 0 15px;
+    padding: 10px 0 11px 0;
+    color: #636363;
+    border-bottom: 1px solid black;
+}
+.right_content .image figcaption p{
+    margin: 0;
+    display: inline;
+}
+.right_content .image figcaption .credit{
+    display: none;
+}
+.right_content > h4{
+    font-family: 'SourceSansPro';
+    font-size: 1.081em;
+    line-height: normal;
+    font-weight: bold;
+    color: #748a96;
+    text-transform: uppercase;
+    margin: 22px 0 0 0;
+}
+table.renderedtable{
+    margin: 25px 0;
+}
+table.renderedtable ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+table.renderedtable ul li{
+    font-family: 'SourceSansPro';
+    font-weight: normal;
+    font-size: 1.081em;
+    line-height: 153.33%;
+}
+table.renderedtable ul li:before{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 3px;
+    height: 3px;
+    margin: -1px 6px 0 0;
+    background: #748a96;
+}

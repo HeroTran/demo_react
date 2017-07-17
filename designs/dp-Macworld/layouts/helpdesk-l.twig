@@ -1,0 +1,79 @@
+{% extends "index.twig" %}
+
+{% block title %}{{ story.title }}{% endblock %}
+
+{% block javascript %}
+{{ parent() }}
+{% endblock %}
+
+{% block stylesheet %}
+{{ parent() }}
+<link rel="stylesheet" href="{{ design }}/stylesheets/helpdesk.css">
+{% endblock %}
+
+{% block bodyclass %}color_{{ section.color }}{% endblock %}
+{% block bodyid %}story{% endblock %}
+
+{% block content %}
+<div id="t1" class="landscape helpdesk default-image-background">
+	<div class="header">
+		<div class="wrapper">
+			<div class="caption">{{ section.name }} <span>{{ story.strap_line }}</span></div>
+		</div>
+	</div>
+	{% if story.image|length > 0%}
+	<div class="cover">
+		<div class="banner">
+			<span class="logo">{{ section.name }}</span>
+			<span class="subtitle">{{ story.sub_title}}</span>
+		</div>
+		<div class="gradient"></div>
+		<div class="default-image masked" style="background-image: url('{{story.image.image_url}}')">
+			
+		</div>
+ 		<div class="head-info"></div>
+	</div>
+	{% endif %}
+	<div class="container">
+		<div class="content-area" id="pagination">
+			<div class="content-body">
+				<span class="white-space" style="height: 1px"></span>
+				<span class="white-space" style="height: 1px"></span>
+				<span class="white-space"></span>
+				<h2 class="title">{{ story.title }}</h2>
+				{% if story.intro != '' %}
+				<p class="intro">{{ story.intro }}</p>
+				{% endif %}
+				{% if story.byline != '' %}
+					<p class="author">{{ story.byline }}</p>
+				{% endif %}	
+				{{ story.body }}
+				{% set credit = "" %}
+				{% if story.image.source != "" %}
+				{% set credit = credit ~ story.image.source %}
+				{% endif %}
+				{% if credit and credit != "" %}
+					<span class="photo-credit">{{credit}}</span>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="nav-dots">
+			<span class="dot"></span>
+			<span class="dot active"></span>
+			<span class="dot"></span>
+		</div>
+
+		<div class="wrapper clearfix" style="display:none;">
+			<div class="page_info">
+				Page <span id="c-page">1</span> of <span id="t-page">1</span>
+			</div>
+			<div class="pagination clearfix">
+				<a href="#" class="go-prev" data-rel="amreader:go-prev">Previous Story</a>
+				<a href="#" class="go-next" data-rel="amreader:go-next">Next Story</a>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

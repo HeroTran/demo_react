@@ -1,0 +1,350 @@
+
+body {
+	margin: 0 !important;
+}
+
+html {
+	height: 100vh !important;
+}
+.app{
+  color: red;
+}
+.no-pointer-events {
+	pointer-events: none;
+}
+
+body, html {
+	margin: 0;
+	overflow: hidden;
+	height: auto;
+}
+
+#root{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+}
+
+.content-app{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+}
+
+@font-face {
+	font-family: 'ProximaNova-Thin';
+  src: url("/fonts/ProximaNova/proximanova-thin-webfont.eot");
+  src: url("/fonts/ProximaNova/proximanova-thin-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/ProximaNova/proximanova-thin-webfont.woff") format("woff"), url("/fonts/ProximaNova/proximanova-thin-webfont.ttf") format("truetype"), url("/fonts/ProximaNova/proximanova-thin-webfont.svg#ProximaNova-Regular") format("svg");
+  font-style: normal;
+}
+
+@font-face {
+	font-family: 'ProximaNova-Regular';
+  src: url("/fonts/ProximaNova/proximanova-reg-webfont.eot");
+  src: url("/fonts/ProximaNova/proximanova-reg-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/ProximaNova/proximanova-reg-webfont.woff") format("woff"), url("/fonts/ProximaNova/proximanova-reg-webfont.ttf") format("truetype"), url("/fonts/ProximaNova/proximanova-reg-webfont.svg#proximanova-Regular") format("svg");
+  font-style: normal;
+}
+
+@font-face {
+	font-family: 'ProximaNova-Semi-Bold';
+  src: url("/fonts/ProximaNova/proximanova-sbold-webfont.eot");
+  src: url("/fonts/ProximaNova/proximanova-sbold-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/ProximaNova/proximanova-sbold-webfont.woff") format("woff"), url("/fonts/ProximaNova/proximanova-sbold-webfont.ttf") format("truetype"), url("/fonts/ProximaNova/proximanova-sbold-webfont.svg#proximanova-sboldular") format("svg");
+  font-style: normal;
+}
+
+@font-face {
+	font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/fonts/md-icons/MaterialIcons-Regular.eot);
+  /* For IE6-8 */
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(/fonts/md-icons/MaterialIcons-Regular.woff2) format("woff2"), url(/fonts/md-icons/MaterialIcons-Regular.woff) format("woff"), url(/fonts/md-icons/MaterialIcons-Regular.ttf) format("truetype");
+}
+
+.material-icons {
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+  /* Preferred icon size */
+	display: inline-block;
+	line-height: 1;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+  /* Support for all WebKit browsers. */
+	-webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+	text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+	-moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+	font-feature-settings: 'liga';
+}
+
+/*MATERIAL ICON SIZES*/
+.material-icons.md-14 {
+	font-size: 14px;
+}
+
+.material-icons.md-18 {
+	font-size: 18px;
+}
+
+.material-icons.md-24 {
+	font-size: 24px;
+}
+
+.material-icons.md-36 {
+	font-size: 36px;
+}
+
+.material-icons.md-48 {
+	font-size: 48px;
+}
+
+.Main-Section{
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #f7f7f7;
+	padding: 0;
+	min-height: calc(100vh - 60px);
+	position: absolute;
+	top:60px;
+	left:0;
+	right:0;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	max-width: 100vw;
+	-webkit-overflow-scrolling: touch;
+	.Section{
+		max-width: 1200px;
+		background-color: #F7F7F7;
+		margin: 0 auto;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		list-style-type: none;
+		-ms-flex-pack: center;
+		justify-content: center;
+		padding: 10px 40px;
+		z-index: 0;
+		.Section-group{
+			margin-top: 2em;
+			.Group-header{
+				width: 100%;
+				display: block;
+				position: relative;
+				margin-bottom: 100px;
+				h2.Group-Title{
+					position: absolute;
+					z-index: 10;
+					font-family: 'ProximaNova-Regular';
+					word-spacing: 2px;
+					color: rgba(0, 0, 0, 0.54);
+					margin-bottom: 10px;
+					margin-top: 15px;
+					margin: 0 auto;
+					padding-left: 0px;
+					padding-bottom: 5px;
+					border-bottom: 2px solid #24abe1;
+					width: 100%;
+					font-size: 22px;
+					}
+			}
+		}
+	}
+}	
+
+.form-control{
+	border-radius: 0px !important;
+}
+.btn-primary {
+    color: #fff !important;
+    background-color: #2196F3 !important;
+    border-color: #2196F3 !important;
+    border-radius: 0px !important;
+    padding: 5px 20px !important;
+}
+.modal-content{
+	  border-radius: 0px;
+}
+.loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+	.loader-section{
+		position: fixed;
+		top: 0;
+		width: 51%;
+		height: 100%;
+		background: #f7f7f7;
+		z-index: 9999;
+	}
+	.section-right{
+		right: 0;
+	}
+	.section-left{
+		left: 0;
+	}
+	
+}
+.loader{
+	display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #3498db;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    z-index: 99999;
+		
+		&:before{
+			content: "";
+			position: absolute;
+			top: 5px;
+			left: 5px;
+			right: 5px;
+			bottom: 5px;
+			border-radius: 50%;
+			border: 3px solid transparent;
+			border-top-color: #e74c3c;
+			-webkit-animation: spin 3s linear infinite;
+			animation: spin 3s linear infinite;
+		}
+		&:after{
+			    content: "";
+				position: absolute;
+				top: 15px;
+				left: 15px;
+				right: 15px;
+				bottom: 15px;
+				border-radius: 50%;
+				border: 3px solid transparent;
+				border-top-color: #f9c922;
+				-webkit-animation: spin 1.5s linear infinite;
+				animation: spin 1.5s linear infinite;
+		}
+		
+}
+
+.remove-load{
+	opacity: 0;
+	visibility: hidden;
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -webkit-transition: all 0.3s 1s ease-out;
+    transition: all 0.3s 1s ease-out;
+	.loader{
+		opacity: 0;
+		-webkit-transition: all 0.3s ease-out;
+		transition: all 0.3s ease-out;
+		
+
+	}
+	.section-left {
+		-webkit-transform: translateX(-100%);
+		-ms-transform: translateX(-100%);
+		transform: translateX(-100%);
+		-webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+		transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+	}
+	.section-right {
+		-webkit-transform: translateX(100%);
+		-ms-transform: translateX(100%);
+		transform: translateX(100%);
+		-webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+		transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+	}
+	
+}
+
+
+@-webkit-keyframes spin {
+        0%   { 
+            -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(0deg);  /* IE 9 */
+            transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+        100% {
+            -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(360deg);  /* IE 9 */
+            transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+    }
+    @keyframes spin {
+        0%   { 
+            -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(0deg);  /* IE 9 */
+            transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+        100% {
+            -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(360deg);  /* IE 9 */
+            transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+    }
+
+.downloadding{
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px !important;
+	.Issue-cover-overlay {
+		background-color: #03a9f4 !important;
+		transition: background-color 0.25s ease-in-out;
+		opacity: 0.90;
+	}
+	.spinner{
+		opacity: 1 !important;
+		z-index: 1000;
+	}
+	.Overlay-icons{
+		opacity: 0 !important;
+	}
+}
+.spinner {
+    margin: 50px;
+    height: 50px;
+    width: 50px;
+    animation: rotate 0.8s infinite linear;
+    border: 3px solid #ffffff;
+    border-right-color: transparent;
+    border-radius: 50%;
+    opacity: 0;
+    z-index: 1000;
+    position: absolute;
+    top: 18%;
+    z-index: 0;
+    left: 11%;
+}
+@keyframes rotate {
+  0%    { transform: rotate(0deg); }
+  100%  { transform: rotate(360deg); }
+}
+
+.isDownload{
+	.spinner{
+		opacity: 0;
+	}
+}
+.downloaded{
+	.spinner{
+		opacity: 0;
+	}
+}

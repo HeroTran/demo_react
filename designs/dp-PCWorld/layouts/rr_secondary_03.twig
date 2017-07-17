@@ -1,0 +1,59 @@
+{% extends "index.twig" %}
+
+{% block title %}{{ story.title }}{% endblock %}
+
+{% block javascript %}
+{{ parent() }}
+{% endblock %}
+
+{% block stylesheet %}
+{{ parent() }}
+<link rel="stylesheet" href="{{ design }}/stylesheets/rr_secondary_03.css">
+{% endblock %}
+
+{% block bodyclass %}color_{{ section.color }}{% endblock %}
+{% block bodyid %}story{% endblock %}
+
+{% block content %}
+<div id="t1" class="portrait rr_secondary_03 enable-dropcap">
+	<div class="header">
+		<div class="color-bar"></div>
+		<div class="wrapper">
+			<div class="caption">
+				<span class="section">{{section.name}}</span>
+				<span class="strap-line">{{ story.strap_line }}</span>
+			</div>
+		</div>
+	</div>
+	{% if story.image|length > 0%}
+	<div class="cover">
+		<div class="banner">
+			<div class="logo">Reviews& Ratings</div>
+		</div>
+		<div class="head-info">
+			<h2 class="title">{{ story.title }}</h2>
+			{% if story.intro != "" %}
+				<p class="intro">{{story.intro}}</p>
+			{% endif %}
+			{% if story.byline != "" %}
+				<span class="author">{{ story.byline }}</span>
+			{% endif %}
+		</div>
+		<div class="default-image " style="background-image: url('{{story.image.image_url}}')">
+		</div>
+	</div>
+	{% endif %}
+	<div class="container">
+		<div class="content-area" id="pagination">
+			<div class="content-body">
+				{{ story.body }}
+				{% if story.image.source != "" %}
+					<p class="photo-credit">{{story.image.source}}</p>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+	</div>
+</div>
+{% endblock %}

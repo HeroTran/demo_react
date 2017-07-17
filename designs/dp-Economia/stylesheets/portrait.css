@@ -1,0 +1,62 @@
+section {width:768px; box-sizing:border-box;}
+.content {position:relative;}
+article .column {width:48%; float:left;}
+article .column:last-child {margin-left:4%;}
+article .column img, article .column .gallery { height:300px; width:auto;margin:10px 0;overflow:hidden; display:block!important;position:relative; }
+article .column .am_df_image img { height:auto; width:auto;padding:0; }
+/* Template audit */
+.icon_gallery { right:20px; bottom:20px; left:auto; }
+.template_audit .default_image {margin-bottom:10px;}
+.template_audit .am_info_box .text {-webkit-overflow-scrolling:touch;overflow:auto;box-sizing:border-box;}
+.template_audit .default_image .am_df_image { height:auto!important; }
+
+/* end Template audit */
+
+/* Template International */
+.template_international .am_title, .template_international .am_sub_title {font-size:90px;}
+.template_international .scrollbox {height:545px;}
+.template_international .content {height:auto;}
+.template_international .image_item img{height:auto;width:auto;}
+/* end Template International */
+
+/* Template Feature */
+.am_info_box .text {-webkit-overflow-scrolling:touch;overflow:auto;box-sizing:border-box;}
+/* end Template Feature */
+
+/* Template Feature 07 */
+.template_features .default_image img, .life01 .am_df_image img, .life01 .default_image img { height:100%!important;width:auto!important; }
+.template_features07 .default_image .caption {height:387px;}
+/* end Template Feature 07 */
+
+/* Template Briefing */
+.template_briefing .default_image {margin-bottom:10px;}
+.template_briefing .default_image .am_df_image { height:auto!important; }
+.template_briefing .am_df_image img { position:relative; }
+/* end Template Briefing */
+
+/* Template Opinion */
+.template_opinion.index-0 .content, .template_audit.index-0 .content, .template_leader.index-0 .content  {height:910px;}
+.template_opinion .mainImg { height: 132px;position:relative;background:#cce9ef; }
+.template_opinion .mainImg figure img{ width:auto!important; height:132px;}
+/* end Template Opinion */
+
+.template_features.features07 .default_image .top_left, .template_features.features07 .default_image .top_right, .template_features.features07 .default_image .bottom_left, .template_features.features07 .default_image .bottom_right { max-height: 600px; }
+
+.template_life .am_df_image { width:auto!important;overflow:hidden; }
+.life03 .default_image .am_df_image{ height:auto!important; }
+
+.graph .default_image { overflow:visible; }
+
+@media all and (min-width: 768px) and (max-width: 1001px) {
+	.template_audit .default_image .am_df_image, .template_briefing .default_image .am_df_image{ height:430px!important; }
+	.life03 .default_image, .life03 .default_image .am_df_image{ min-height:320px!important; }
+}
+
+@media all and (min-width: 0px) and (max-width: 767px) {
+	.template_audit .default_image .am_df_image, .template_briefing .default_image .am_df_image{ min-height:325px!important; }
+	.life03 .default_image, .life03 .default_image .am_df_image{ min-height:250px!important; }
+	.template_international .scrollbox { height:400px; }
+	.template_international .am_intro { padding:0px 0 40px 0; }
+	.template_international header { max-height:410px;overflow:hidden; }
+	.template_international .am_title, .template_international .am_sub_title { line-height:88px; }
+}

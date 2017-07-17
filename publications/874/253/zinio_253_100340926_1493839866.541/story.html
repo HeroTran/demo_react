@@ -1,0 +1,37 @@
+<p class="byline"><b>BY JOEL HRUSKA</b></p>
+
+<div class="">		
+
+    
+        
+    
+                                                                                                                                            <img src="/var/site_874/storage/images/media2/images/f0017-0122/146335-1-eng-US/f0017-012.jpg" width="796" height="929"  style="border: 0px  ;" alt="f0017-01" title="f0017-01" />
+        		<figcaption style="display:none">
+</figcaption>
+    
+    
+    
+    </div><p><b>E</b>arlier this year, I declared the Internet of Things had officially hit peak stupid, courtesy of a new smart toaster being shown at CES. I should have known better. What’s even more useless than a smart toaster? A smart toaster that’s been hacked to mine Bitcoin.</p>
+<p>This is a concept as incomprehensible as it is stupid. Seven years ago, mining bitcoins on CPUs was totally a thing people did. Six years ago, GPUs such as AMD’s HD 5000 series were tearing up the hash charts. Four to five years ago, you could still earn some money mining on GPUs, but the specter of custom-built ASICs was rising, and those offer performance benefits no GPU could compete with.</p>
+
+<div class="">		
+
+    
+        
+    
+                                                                                                                                            <img src="/var/site_874/storage/images/media2/images/f0018-0126/146328-1-eng-US/f0018-012.jpg" width="850" height="490"  style="border: 0px  ;" alt="f0018-01" title="f0018-01" />
+        		<figcaption style="display:none">
+<p><b>BUSYBOX</b></p>
+<p><b>IBM’s X-Force picked up a surge in Mirai with Bitcoin mining baked in.</b></p>
+</figcaption>
+    
+    
+    
+    </div><p>According to IBM’s X-Force initiative, there was a brief spike in a specific variant of Mirai that carries a cryptocurrency mining payload, possibly deployed as a proof-of-concept solution. Here’s how X-Force describes the Bitcoin-mining version:</p>
+<p><i>What we found when we dissected the Mirai sample was pretty much the same Mirai functionality ported over from the Windows version with a focus on attacking Linux machines running BusyBox. This software provides several stripped-down Unix tools in a single executable file and digital video recording (DVR) servers. BusyBox utilizes Telnet, which is targeted with a dictionary attack brute-force tool contained in the Mirai malware. The DVR servers are targeted because many of them use default Telnet credentials.</i></p>
+<p>The Telnet protocol is an attacker’s gateway to compromising IoT devices. Aside from DVRs, many embedded system applications in IoT devices, such as routers, VoIP phones, televisions, industrial control systems and others, leverage Telnet’s remote-access capabilities.</p>
+<p>IBM’s X-Force theorizes that this new approach might have been an attempt to monetize Bitcoin mining by spreading the workload out to dozens, even thousands or tens of thousands of IoT products. In principle, yes, this could work. In practice… well. It probably wouldn’t.</p>
+<h3><b>WHAT’S THE HASH RATE ON A MICROCONTROLLER?</b></h3><p>Over the last few years, people have made something of a game out of mining bitcoins on unusual bits of hardware. We’ve seen bitcoin mined via pen and paper and on an ancient IBM 1401. But there’s something about trying to mine BTC on a toaster, wireless light bulb, dildo camera, baby monitor, wine bottle, and/or humidifier that’s particularly pathetic.</p>
+<p>For one thing, the CPU power packed into this equipment isn’t simply less than you’d get from an Intel Core i7 or AMD Ryzen 5 or 7—it’s dramatically less. A single-core Cortex-A8 running at 800MHz to 1GHz would be terrible compared with even a low-end CPU (the Bitcoin article on this topic suggests a hash rate of 0.12MHash/s to 0.2MHash/s for the Cortex-A8 and 0.57 for the Cortex A9). Imagine trying this with a Cortex-M3 or M4-class processor, which offer significantly less performance than their Cortex counterparts.</p>
+<p>Now, add the fact that a Cortex-A8 is still a high-end CPU by the standards of a lot of embedded products. You’re not going to get much call for an ARM-optimized Bitcoin client capable of toasting and hashing. Whatever bright bulb tried to create this solution will find himself painstakingly writing a lot of hand-tuned code to execute BTC operations “optimally” on ancient hardware.</p>
+<p>We suspect the reason IBM saw a steep drop-off in Mirai’s BTC client is because it’s just too damn hard to get bitcoins out of your microwave. Best to let the Internet of Things focus on what it does best—destroying perfectly useful products, stuffing landfills with insane amounts of plastic garbage, and making no one’s life better, ever.</p>

@@ -1,0 +1,180 @@
+<p class="byline"><b>BY GLENN FLEISHMAN</b></p>
+
+<div class="">		
+
+    
+        
+    
+                                                                                                                                            <img src="http://cdn-assets.ziniopro.com/var/site_496/storage/images/media2/images/arq/398066-1-eng-US/arq.jpg?t=web480&ext/arq_web480.jpg" width="480" height="309"  style="border: 0px  ;" alt="arq" title="arq" />
+        		<figcaption style="display:none">
+</figcaption>
+    
+    
+    
+    </div><p><b>T</b>here have never been so many options to clone, back up, and archive data from your Mac. And there have never been so few options for local networked backup. With Apple’s Time Machine and Time Capsule eating the heart out of the basic backup market for connected and networked archives, and several competing cloud-hosted services owning flat-rate unlimited storage, it’s hard for any developer to compete.</p>
+<p>Code42’s <a href="https://crashplan.com" target="_self">CrashPlan</a> and Econ Technologies’ <a href="http://go.macworld.com/chrnsnc" target="_self">ChronoSync</a> are players in the game. CrashPlan offers a single software client that can copy data to a connected volume, a LAN-hosted volume, a friend’s Internet-reachable drive, or its own for-fee cloud service that has an unlimited storage option. ChronoSync is a ridiculously full-featured clone, mirror, and sync package that works with local and network-mounted drives, including Network Attached Storage (NAS) devices, and also with Amazon S3 (Simple Storage Service) and Google Cloud Storage, as well as via SFTP (Secure FTP).</p>
+<p>However, CrashPlan’s home flavor relies on Java after promising years ago to migrate to native software as the firm has done for its business customers. The software is funky and inconsistent, as I’ve found on two different Macs (though it runs fine on others in my family’s network). And it uses a proprietary format for archiving. ChronoSync is a fantastic option, but so deeply and comprehensively fleshed out, I’m afraid that it requires a relatively high amount of sophistication to use it well. I’ve spent many hours with it and have mastered it, but it’s too high a burden for more casual users.</p>
+
+<div>
+<table bgcolor="#eeeeee">
+<tr>
+    <td>
+    <h3><b>ARQ</b></h3>
+<div class="">		
+
+    
+        
+    
+                                                                                                                                            <img src="/var/site_496/storage/images/media2/images/4mice20/398004-1-eng-US/4mice.png" width="289" height="144"  style="border: 0px  ;" alt="4mice" title="4mice" />
+        		<figcaption style="display:none">
+</figcaption>
+    
+    
+    
+    </div><h4><b>PROS</b></h4><p>• Simplified interface accessible to most users</p>
+<p>• Works with flat-rate and high-capacity fixed-rate cloud data services</p>
+<p>• Includes data/cost budget to thin archives automatically</p>
+<p>• Lifetime software update for $30 extra</p>
+<h4><b>CONS</b></h4><p>• Needs to overhaul its restore process to improve selection and file version differentiation</p>
+
+    </td>
+</tr>
+</table>
+</div><p>This is where <a href="https:/www.arqbackup.com" target="_self">Arq</a> comes in—and stands out. The affordably priced backup software ($50) is native, more reliable and easier to use than CrashPlan, more focused on backups and simpler than ChronoSync, and has a unique twist: it can back up data to Amazon’s consumer-focused Amazon Cloud Drive service. Amazon’s data hosting costs a flat $60 a year for unlimited storage, making it competitive with Backblaze, CrashPlan, and other hosted services. Arq can also back up to Dropbox, Google Drive, and OneDrive, which some people may already be paying for, and which don’t charge for moving data in and out. While ChronoSync can archive to cloud services, it currently works only with those that charge for data transferred and data stored.</p>
+
+<div class="">		
+
+    
+        
+    
+                                                                                                                                            <img src="http://cdn-assets.ziniopro.com/var/site_496/storage/images/media2/images/f0028-0161/396447-1-eng-US/f0028-012.jpg?t=web480&ext/f0028-012_web480.jpg" width="480" height="364"  style="border: 0px  ;" alt="f0028-01" title="f0028-01" />
+        		<figcaption style="display:none">
+<p><b>Browsing backups works better than searching for files, but you can’t make multiple selections, among other awkwardness.</b></p>
+</figcaption>
+    
+    
+    
+    </div><p>I ran Arq through its paces with several cloud storage services, local storage, and networked storage. (Arq also comes in a native Windows version, which I didn’t test, but has feature parity.)</p>
+<h3><b>A BASIC BACKUP WITH ACCESSIBLE OPTIONS</b></h3><p>Arq is closest to Backblaze, or even Apple’s long-ago Backups app, in terms of reducing complexity and focusing on documents. For straightforward backups with a history of revisions, Arq requires just selecting folders and one or more destinations. You can dig in a little deeper to exclude certain directories or kinds of files or customize a backup schedule and other parameters by destination.</p>
+<p>I’d say Time Machine is even simpler, but Time Machine offers effectively no options, and Apple’s built-in archiver is meant to offer a complete restoration of a disk as well as the ability to select older versions of modified files. Arq is not a cloner: you’ll want to use Time Machine, SuperDuper, Carbon Copy Cloner, or the cloning mode in ChronoSync for that purpose.</p>
+<p>In the simplest setup, you follow these steps:</p>
+<p>&gt; Set up a backup destination (see the “Choose backup destinations” section).</p>
+<p>&gt; Choose a password that you carefully store somewhere (more on that in the “Encryption” section).</p>
+<p>&gt; Agree to a prompt to back up your Home folder.</p>
+<p>&gt; Walk away.</p>
+<p>It then just runs hourly indefinitely. Arq stores incremental backups, uploading only changed chunks of files, and can restore by reassembling pieces across time that relate to the version you want. This is a common strategy. You can change the interval and times of day when a backup runs or set it to run only on a manual request.</p>
+<p>You aren’t limited to your Home folder: you can back up any folder you select, although because of its approach in backing up, I’d recommend avoiding system files, which is true of many backup programs that don’t perform a full clone operation.</p>
+
+<div class="">		
+
+    
+        
+    
+                                                                                                                                            <img src="/var/site_496/storage/images/media2/images/f0030-0165/396440-1-eng-US/f0030-012.jpg" width="769" height="422"  style="border: 0px  ;" alt="f0030-01" title="f0030-01" />
+        		<figcaption style="display:none">
+<p><b>The search results for checking backups doesn’t provide enough information to choose among different versions.</b></p>
+</figcaption>
+    
+    
+    
+    </div><p>When it adds your Home folder, Arq excludes the same files and locations as Time Machine. But you can configure your own exclusions by unchecking files and folders in a browser list. You can also use one or more matching conditions for file/folder names as well as regular expressions used on the full file path.</p>
+<p>As you add folders by destination, they appear in a simple list at left under Configure Backups. Beneath that, there’s a corresponding set of entries for Restore Files. Each backup appears under a folder for both Configure and Restore showing the backup dates.</p>
+<h3><b>RESTORATION NEEDS AN UPGRADE</b></h3><p>Restoring files is a little chunkier than backing up, and more sophisticated software often has better options to assemble a set of items to retrieve. With Arq, you either drill down through a source to a folder to a given date-and-time backup, and then browse a folder and file hierarchy, or you can search across all backups. In search results, Arq only shows a file path, like <b>/Users/Home/billg/Documents/dog1.jpg</b> instead of a more friendly icon-based hierarchy, and it doesn’t reveal from which backup each file or folder comes in the list.</p>
+<p>If you browse through a given backup set from a destination, Arq labels folders and files changed, added, or deleted since the last backup, and labels all files with the last modified date, whether they were modified or not. However, when you search, the only information that shows is the date and time of the backup of which the result is part, and the backup source isn’t identified, either. This is subpar.</p>
+<p>While Arq’s selection options are frankly just about as clunky and frustrating as most other backup client software, its biggest flaw is that you can only select one file or folder at a time, either for dragging to the Finder (where it restores in the place you dragged) or using the Restore button, which offers to overwrite or restore into a separate folder in the original location from which files were backed up.</p>
+<p>Even that overwrite/write-alongside option is confusing: the dialog offers Do Not Overwrite, Cancel, and Overwrite, while the text explains that Arq is “downloading and replacing only the modified and missing files with the files from the backup.” That’s only true with Overwrite; click Do Not Overwrite, and Arq puts the entire selection in a folder in that nested location. This is good behavior, but explained poorly.</p>
+<p>Arq desperately needs multiple selections and noncontiguous ones, as well as other ways to retrieve files besides dragging and overwriting. Other software and services have varying approaches that make it easier to get to the right place at the right time.</p>
+<p>It’s primarily for a failure to have richer and more robust restore options that I gave Arq four mice instead of five.</p>
+
+<div class="">		
+
+    
+        
+    
+                                                                                                                                            <img src="/var/site_496/storage/images/media2/images/f0031-0149/396433-1-eng-US/f0031-012.jpg" width="549" height="147"  style="border: 0px  ;" alt="f0031-01" title="f0031-01" />
+        		<figcaption style="display:none">
+<p><b>The overwrite dialog for restoring files doesn’t fully explain all the outcomes.</b></p>
+</figcaption>
+    
+    
+    
+    </div><h3><b>CHOOSE BACKUP DESTINATIONS</b></h3><p>Beyond simplicity, Arq’s best point is supporting so many different kinds of backup destinations. As noted at the outset, it works with conventional cloud-storage offerings, Amazon S3 and Google Cloud Storage, which effectively charge for data transfer and then lease you storage on a per-gigabyte monthly pro-rated basis.</p>
+<p>But Arq also connects with Amazon Cloud Drive (unlimited storage for $60 a year), paid tiers of Dropbox (1TB, 2TB, and unlimited flavors from $8.25 to $20 per month), Google Drive (1TB for $10 a month), and Microsoft OneDrive (1TB for $6 a month). Many people, through work or for personal use, already have a cloud subscription, and Arq lets you leverage what you’re already paying instead of adding another monthly or yearly fee on top.</p>
+<p>Arq can also connect to any server that supports SFTP (Secure FTP), a long-available secured file-transfer protocol built on top of SSH (Secure Shell) for remote server access. It’s part of macOS’s Remote Access service in the Sharing system preference pane. And Arq can back up to any folder or volume you can select through a standard dialog box, which includes NAS devices and other Macs over AFP or SMB.</p>
+<p>This diversity of options and the ability to work with Amazon Cloud Drive puts Arq above the pack. While many hosted backup services cost between $4 to $6 per month per computer for unlimited storage, they control all remote access to your files, and all of them only back up to their own data stores.</p>
+<p>Arq has some nice subtleties in how you work with destination cloud services, letting you choose among different tiers of Amazon and Google’s usage-based storage services that are priced based on how frequently you might need to retrieve the data. Arq puts a friendly interface particularly in front of Amazon Glacier, an appropriately named “cold storage” service that’s meant for essentially long-term reliable storage of data you may never need to retrieve. Retrieval costs with Glacier vary, too, and Arq lets you select among three options.</p>
+
+<div class="">		
+
+    
+        
+    
+                                                                                                                                            <img src="/var/site_496/storage/images/media2/images/f0032-0161/396426-1-eng-US/f0032-012.jpg" width="521" height="405"  style="border: 0px  ;" alt="f0032-01" title="f0032-01" />
+        		<figcaption style="display:none">
+<p><b>Arq provides access and cost insight into usage-based cloud-storage options.</b></p>
+</figcaption>
+    
+    
+    
+    </div><p>And in what is a fantastic option for managing storage limits and costs, you can set a backup budget in storage size or cost: Arq will cull pieces of files related to older versions when you exceed the budget, but will also ensure it has one complete backup, even if it goes over that total. The monetary cost appears for backup methods that charge in units and for which Arq can calculate storage costs; otherwise, you see a storage limit. You can set an interval during which to enforce the budget and perform a manual cull.</p>
+<p>A common scenario is when you have large files that you modify frequently enough and that use a data storage format that ripples changes throughout. A 100MB file could balloon to occupy tens of gigabytes or more over time if you don’t cull past versions.</p>
+
+<div class="">		
+
+    
+        
+    
+                                                                                                                                            <img src="/var/site_496/storage/images/media2/images/f0033-0138/396419-1-eng-US/f0033-012.jpg" width="440" height="551"  style="border: 0px  ;" alt="f0033-01" title="f0033-01" />
+        		<figcaption style="display:none">
+<p><b>Every destination can have settings for frequency and time of day set, as well as a data or cost budget and thinning interval.</b></p>
+</figcaption>
+    
+    
+    
+    </div><p>You can also set a global preference in Arq → Preferences → Advanced called Thin Backups From Hourly To Daily To Weekly. On each backup, Arq retains no more than one backup per week per file, one month worth of daily backups, and one day of hourly backups. With a budget enabled, that culling also happens in reverse order from weekly to daily to hourly to stay within the budget.</p>
+<p>On the throughput side, it’s hard to provide a precise answer. I have gigabit Internet, and was able to see 100 Mbps to 200 Mbps throughput for uploading files to top-tier cloud destinations, which is impressive given the degree of scanning and encryption involved. Amazon Cloud Backup was about a tenth as fast as Amazon S3, which is not a surprise given the market for each service. For locally connected storage, I seemed to max out at 100 Mbps over USB 3.0 to a hard drive, which is far below the drive’s top rate. (You can set a network throttle in preferences, and tell Arq to use only certain network interfaces and Wi-Fi networks, too.)</p>
+<p>Arq’s one flaw in backup locations is that it doesn’t store credentials (all the login information) separately from destinations. If you’re using different kinds of storage at Amazon S3 or Google Cloud Storage, or different folders for SFTP, you have to go through the login process each time. That could be simplified with a credentials manager, used by file-transfer software like Transmit and Arq quasi-competitor ChronoSync. I suspect, however, most Arq users aren’t using lots of locations at the same service. And the pain is one time: once set up, you don’t have to repeat it.</p>
+
+<div class="">		
+
+    
+        
+    
+                                                                                                                                            <img src="/var/site_496/storage/images/media2/images/f0034-0165/396412-1-eng-US/f0034-012.jpg" width="366" height="450"  style="border: 0px  ;" alt="f0034-01" title="f0034-01" />
+        		<figcaption style="display:none">
+<p><b>Arq can avoid backing up to certain Wi-Fi networks (and certain network interfaces, not shown).</b></p>
+</figcaption>
+    
+    
+    
+    </div><h3><b>ENCRYPTION</b></h3><p>Several hosted backup services let you “own” your encryption keys, but some of those transmit the keys (in a secure fashion) to their servers, which handle part of the encryption or decryption process for backing up and restoring. Not controlling your keys or having them transmitted to a server for any reason puts your data security at risk from hackers, vandals, and governments (your own and others). It’s a set of trade-offs. (I wrote extensively about these trade-offs in September 2016.)</p>
+<p>All data is encrypted by Arq before it leaves your computer or before it’s stored locally in a folder using standard encryption elements, similar to the git versioncontrol system. (You can read the full details.) It seems well conceived to me.</p>
+<p>You pick a passphrase each time you start using a destination. The passphrase can be identical across all your destinations or re-used across some or all. The app generates random keys for encryption for each destination, and then encrypts those keys using your passphrase, which is transformed through an algorithm into an encryption key. That encrypted file with the destination keys is stored with the backup.</p>
+<p>Your passphrase is stored in Keychain and accessed by Arq and its background agent as needed. You can unlock Keychain with your login password to view Arq passphrases. So long as you can recover your passphrases if your computer or startup drive were lost, stolen, or destroyed, you can restore the corresponding Arq backups. Lose the passphrases, though, and your backup is locked away forever.</p>
+<p>The only vulnerability here is while your Mac is running, someone who could gain access to an active session on your computer could potentially grab your encryption keys. That’s a risk with all locally controlled encryption, however, and not unique to Arq. And having all the keys decrypted only locally, never transmitted and never used on remote servers, vastly reduces the potential of them being obtained.</p>
+<h3><b>COMPARING WITH TIME MACHINE, CRASHPLAN, AND CHRONOSYNC</b></h3><p>The real test of Arq is whether it fits users’ needs where other backup software and services fall short.</p>
+<p><b>Time Machine.</b> I don’t have to recount to most people the troubles with Time Machine. While it has grown increasingly reliable, release after release, it’s not configurable. And when a backup fails, it often corrupts silently and with little recourse. Time Capsule is even worse, in that you can’t access the drive directly, and many people have written me about an entire Mac’s worth of Time Machine backups being flushed from Time Capsule.</p>
+<p>Several third-party Time Machine utilities that let you control its function better have fallen by the wayside, and it’s now difficult to impossible to choose specific folders or files to back up, set a schedule, or control archive depth.</p>
+<p>Time Machine also omits encryption. If your Time Machine target is an encrypted volume, it’s secure at rest (unmounted), but files are written in the clear. Finally, Time Machine only backs up to local drives and networked volumes.</p>
+<p><b>CrashPlan.</b> CrashPlan should be a viable alternative, based on features. CrashPlan lets people back up at no cost locally or to a networked or peer’s Mac or Windows system running a CrashPlan client. It also lets you pick your own encryption key (in two different variants), controlling ownership of your encryption. It offers great file and folder selection. Its flat-rate unlimited cloud backup is reasonably priced for individuals and families.</p>
+<p>However, the CrashPlan Java client for home users is a sticking point. It’s not reliable, fast, or easy to use, although its restore feature is far superior to the current state of Arq’s restore. Mac users shouldn’t install or use Java, even in the restricted form that’s packaged with CrashPlan.</p>
+<p>CrashPlan also backs up to a proprietary format, even locally, and can’t pick other cloud destinations.</p>
+<p><b>ChronoSync.</b> ChronoSync combines some of the best options of cloning software and Time Machine, and has many similar advantages to Arq. However, its complexity best maps to those who really need to dig into the options and learn them. You can create extraordinary layers of archives and exclusions and schedules. It’s definitely over the top for average users, even when you try to choose the kind of sync option from a pop-up menu. I’m very glad the app exists, but I can’t recommend it broadly.</p>
+<p>ChronoSync also isn’t built around encryption. The only option to use encryption is with Amazon S3 and Google Cloud Storage, and only using limited server-side options that I don’t recommend.</p>
+<p>The app is best for people who have very specific and sometimes elaborate needs.</p>
+
+<div class="">		
+
+    
+        
+    
+                                                                                                                                            <img src="/var/site_496/storage/images/media2/images/f0036-0163/396405-1-eng-US/f0036-012.jpg" width="584" height="193"  style="border: 0px  ;" alt="f0036-01" title="f0036-01" />
+        		<figcaption style="display:none">
+<p><b>You set your own passphrase for each destination’s encryption keys.</b></p>
+</figcaption>
+    
+    
+    
+    </div><h3><b>BOTTOM LINE</b></h3><p>Arq seems to hit several sweet spots for folks who want to own their encryption fully and control more of their backup process, including having identical or different local and cloud archives.</p>
+<p>The initial setup isn’t painful, and there’s so little configuration, I can recommend it to users who feel overwhelmed with some of the competing options. Its ability to work with Dropbox and Amazon Cloud Backup provide reasonable alternatives to other cloud-based backup services.</p>
+<p>If Arq seems too thin to you, I recommend ChronoSync, which offers a staggering array of options and customization. But for most people, Arq should provide the right combination of power, simplicity, one-time cost, and ongoing hosted data costs.</p>

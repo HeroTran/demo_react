@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<designpack id="am-rs">
+	<name>PC Mag</name>
+	<designer>Kevin</designer>
+	<created-date>10 Aug 2015</created-date>
+	<story>
+		<portrait>
+			<layout type="story" orientation="portrait" id="am-rs-portrait-1">
+				<name>Behind the page</name>
+				<link>behind_the_page.twig</link>
+				<related>am-rs-portrait-1</related>
+				<thumbnail>behind_the_page.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-rs-portrait-2">
+				<name>Feature</name>
+				<link>feature.twig</link>
+				<related>am-rs-portrait-2</related>
+				<thumbnail>feature.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-rs-portrait-3">
+				<name>Feature</name>
+				<link>feature_02.twig</link>
+				<related>am-rs-portrait-3</related>
+				<thumbnail>feature_02.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-rs-portrait-4">
+				<name>Forward</name>
+				<link>forward.twig</link>
+				<related>am-rs-portrait-4</related>
+				<thumbnail>forward.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-rs-portrait-5">
+				<name>Column</name>
+				<link>column.twig</link>
+				<related>am-rs-portrait-5</related>
+				<thumbnail>column.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+		</portrait>
+		<landscape>
+			<layout type="story" orientation="landscape" id="am-rs-landscape-1">
+				<name>Behind the page</name>
+				<link>behind_the_page-l.twig</link>
+				<related>am-rs-landscape-1</related>
+				<thumbnail>behind_the_page_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-rs-landscape-2">
+				<name>Feature</name>
+				<link>feature-l.twig</link>
+				<related>am-rs-landscape-2</related>
+				<thumbnail>feature_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-rs-landscape-3">
+				<name>Feature 02</name>
+				<link>feature_02-l.twig</link>
+				<related>am-rs-landscape-3</related>
+				<thumbnail>feature_02_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-rs-landscape-4">
+				<name>Forward</name>
+				<link>forward-l.twig</link>
+				<related>am-rs-landscape-4</related>
+				<thumbnail>forward_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-rs-landscape-5">
+				<name>Column</name>
+				<link>column-l.twig</link>
+				<related>am-rs-landscape-5</related>
+				<thumbnail>column_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+		</landscape>
+	</story>
+	<section>
+		<portrait>
+			<layout></layout>
+		</portrait>
+		<portrait>
+			<layout></layout>
+		</portrait>
+		<color>
+			<item>009bee</item>
+			<item>c20a1f</item>
+			<item>01b2b8</item>
+			<item>ffa700</item>
+			<item>7accb6</item>
+			<item>333192</item>
+			<item>ee2375</item>
+		</color>
+	</section>
+</designpack>

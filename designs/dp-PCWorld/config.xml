@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<designpack id="am-dp1">
+	<name>PC World</name>
+	<designer>Tam Dao</designer>
+	<created-date>26 October 2015</created-date>
+	 <verticalScroll>true</verticalScroll>
+	<story>
+		<landscape>
+			<layout type="story" orientation="landscape" id="am-landscape-1">
+				<name>HeresHow Article 01</name>
+				<link>hh_article-l.twig</link>
+				<related>am-landscape-1</related>
+				<thumbnail>hh_article_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-2">
+				<name>HeresHow Article 02</name>
+				<link>hh_article_02-l.twig</link>
+				<related>am-landscape-2</related>
+				<thumbnail>hh_article_02_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-3">
+				<name>HeresHow Article 03</name>
+				<link>hh_article_03-l.twig</link>
+				<related>am-landscape-3</related>
+				<thumbnail>hh_article_03_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-5">
+				<name>HeresHow Secondary 01</name>
+				<link>hh_secondary-l.twig</link>
+				<related>am-landscape-5</related>
+				<thumbnail>hh_secondary_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-6">
+				<name>HeresHow Secondary 02</name>
+				<link>hh_secondary_02-l.twig</link>
+				<related>am-landscape-6</related>
+				<thumbnail>hh_secondary_02_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-7">
+				<name>HeresHow Secondary 03</name>
+				<link>hh_secondary_03-l.twig</link>
+				<related>am-landscape-7</related>
+				<thumbnail>hh_secondary_03_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-9">
+				<name>News Article 01</name>
+				<link>news_article-l.twig</link>
+				<related>am-landscape-9</related>
+				<thumbnail>news_article_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-10">
+				<name>News Article 02</name>
+				<link>news_article_02-l.twig</link>
+				<related>am-landscape-10</related>
+				<thumbnail>news_article_02_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-11">
+				<name>News Article 03</name>
+				<link>news_article_03-l.twig</link>
+				<related>am-landscape-11</related>
+				<thumbnail>news_article_03_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-13">
+				<name>News Secondary 01</name>
+				<link>news_secondary-l.twig</link>
+				<related>am-landscape-13</related>
+				<thumbnail>news_secondary_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-14">
+				<name>News Secondary 02</name>
+				<link>news_secondary_02-l.twig</link>
+				<related>am-landscape-14</related>
+				<thumbnail>news_secondary_02_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-15">
+				<name>News Secondary 03</name>
+				<link>news_secondary_03-l.twig</link>
+				<related>am-landscape-15</related>
+				<thumbnail>news_secondary_03_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>	
+			<layout type="story" orientation="landscape" id="am-landscape-17">
+				<name>Review rating Article 01</name>
+				<link>rr_article-l.twig</link>
+				<related>am-landscape-17</related>
+				<thumbnail>rr_article_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>	
+			<layout type="story" orientation="landscape" id="am-landscape-18">
+				<name>Review rating Article 02</name>
+				<link>rr_article_02-l.twig</link>
+				<related>am-landscape-18</related>
+				<thumbnail>rr_article_02_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>	
+			<layout type="story" orientation="landscape" id="am-landscape-19">
+				<name>Review rating Article 03</name>
+				<link>rr_article_03-l.twig</link>
+				<related>am-landscape-19</related>
+				<thumbnail>rr_article_03_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-21">
+				<name>Review rating Secondary 01</name>
+				<link>rr_secondary-l.twig</link>
+				<related>am-landscape-21</related>
+				<thumbnail>rr_secondary_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-landscape-22">
+				<name>Review rating Secondary 02</name>
+				<link>rr_secondary_02-l.twig</link>
+				<related>am-landscape-22</related>
+				<thumbnail>rr_secondary_02_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>	
+			<layout type="story" orientation="landscape" id="am-landscape-23">
+				<name>Review rating Secondary 03</name>
+				<link>rr_secondary_03-l.twig</link>
+				<related>am-landscape-23</related>
+				<thumbnail>rr_secondary_03_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>				
+		</landscape>
+		<portrait>
+			<layout type="story" orientation="portrait" id="am-portrait-1">
+				<name>HeresHow Article 01</name>
+				<link>hh_article.twig</link>
+				<related>am-portrait-1</related>
+				<thumbnail>hh_article.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-2">
+				<name>HeresHow Article 02</name>
+				<link>hh_article_02.twig</link>
+				<related>am-portrait-2</related>
+				<thumbnail>hh_article_02.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-3">
+				<name>HeresHow Article 03</name>
+				<link>hh_article_03.twig</link>
+				<related>am-portrait-3</related>
+				<thumbnail>hh_article_03.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-5">
+				<name>HeresHow Secondary 01</name>
+				<link>hh_secondary.twig</link>
+				<related>am-portrait-5</related>
+				<thumbnail>hh_secondary.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-6">
+				<name>HeresHow Secondary 02</name>
+				<link>hh_secondary_02.twig</link>
+				<related>am-portrait-6</related>
+				<thumbnail>hh_secondary_02.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-7">
+				<name>HeresHow Secondary 03</name>
+				<link>hh_secondary_03.twig</link>
+				<related>am-portrait-7</related>
+				<thumbnail>hh_secondary_03.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-9">
+				<name>News Article 01</name>
+				<link>news_article.twig</link>
+				<related>am-portrait-9</related>
+				<thumbnail>news_article.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-10">
+				<name>News Article 02</name>
+				<link>news_article_02.twig</link>
+				<related>am-portrait-10</related>
+				<thumbnail>news_article_02.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-11">
+				<name>News Article 03</name>
+				<link>news_article_03.twig</link>
+				<related>am-portrait-11</related>
+				<thumbnail>news_article_03.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-13">
+				<name>News Secondary 01</name>
+				<link>news_secondary.twig</link>
+				<related>am-portrait-13</related>
+				<thumbnail>news_secondary.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-14">
+				<name>News Secondary 02</name>
+				<link>news_secondary_02.twig</link>
+				<related>am-portrait-14</related>
+				<thumbnail>news_secondary_02.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-15">
+				<name>News Secondary 03</name>
+				<link>news_secondary_03.twig</link>
+				<related>am-portrait-15</related>
+				<thumbnail>news_secondary_03.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>	
+			<layout type="story" orientation="portrait" id="am-portrait-17">
+				<name>Review rating Article 01</name>
+				<link>rr_article.twig</link>
+				<related>am-portrait-17</related>
+				<thumbnail>rr_article.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>	
+			<layout type="story" orientation="portrait" id="am-portrait-18">
+				<name>Review rating Article 02</name>
+				<link>rr_article_02.twig</link>
+				<related>am-portrait-18</related>
+				<thumbnail>rr_article_02.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>	
+			<layout type="story" orientation="portrait" id="am-portrait-19">
+				<name>Review rating Article 03</name>
+				<link>rr_article_03.twig</link>
+				<related>am-portrait-19</related>
+				<thumbnail>rr_article_03.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-21">
+				<name>Review rating Secondary 01</name>
+				<link>rr_secondary.twig</link>
+				<related>am-portrait-21</related>
+				<thumbnail>rr_secondary.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-portrait-22">
+				<name>Review rating Secondary 02</name>
+				<link>rr_secondary_02.twig</link>
+				<related>am-portrait-22</related>
+				<thumbnail>rr_secondary_02.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>	
+			<layout type="story" orientation="portrait" id="am-portrait-23">
+				<name>Review rating Secondary 03</name>
+				<link>rr_secondary_03.twig</link>
+				<related>am-portrait-23</related>
+				<thumbnail>rr_secondary_03.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>	
+		</portrait>
+	</story>
+	<section>
+		<landscape>
+			<layout></layout>
+		</landscape>
+		<portrait>
+			<layout></layout>
+		</portrait>
+		<color>
+			<item>009bee</item>
+			<item>c20a1f</item>
+			<item>01b2b8</item>
+			<item>ffa700</item>
+			<item>7accb6</item>
+			<item>333192</item>
+			<item>ee2375</item>
+		</color>
+	</section>
+</designpack>

@@ -1,0 +1,99 @@
+.content-area {
+  padding-top: 50px; }
+
+.head-info {
+  text-align: center;
+  padding: 0 50px; }
+  .head-info .strap_line {
+    font-family: 'AImpacto';
+    font-size: 1.33em;
+    font-weight: normal;
+    line-height: 1.6;
+    margin: 0;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase; }
+  .head-info .title {
+    font-family: 'TungstenCondensed';
+    font-weight: 900;
+    font-size: 8.67em;
+    line-height: 84.6%;
+    color: #000;
+    text-transform: uppercase;
+    margin: 42px 0 0 0;
+    letter-spacing: 0.01em; }
+  .head-info .intro {
+    font-family: 'Tungsten';
+    font-weight: 600;
+    color: #58595b;
+    font-size: 2.13em;
+    line-height: 93.75%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    margin-top: 34px;
+    padding: 0 75px;
+    text-align: left; }
+  .head-info .byline {
+    font-family: 'Geogrotesque';
+    font-size: 1.07em;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.625;
+    letter-spacing: 0.03em;
+    margin: 44px 0 40px 0; }
+
+figcaption p {
+  font-family: 'Geogrotesque';
+  font-weight: 600; }
+
+.right_content {
+  padding: 20px 50px 40px 50px; }
+  .right_content p.pullQuote {
+    position: relative;
+    font-family: 'AImpacto';
+    font-weight: normal;
+    font-size: 2.6em;
+    line-height: 1;
+    color: #000;
+    letter-spacing: 0.008em;
+    margin: 50px 0; }
+    .right_content p.pullQuote:after {
+      content: '';
+      display: block;
+      width: 270px;
+      height: 28px;
+      background-color: #ef3b24;
+      margin-top: 30px; }
+    .right_content p.pullQuote i {
+      font-style: normal; }
+
+.mobile {
+  padding-top: 0; }
+  .mobile .content-area {
+    padding-top: 20px; }
+  .mobile .head-info {
+    padding: 0 25px; }
+    .mobile .head-info .strap_line {
+      font-size: 0.67em; }
+    .mobile .head-info .title {
+      margin-top: 15px;
+      font-size: 4.33em; }
+    .mobile .head-info .intro {
+      padding: 0 5px;
+      font-size: 1.07em;
+      line-height: 0.9375;
+      margin-top: 16px; }
+    .mobile .head-info .byline {
+      font-size: 0.53em;
+      margin: 20px 0; }
+  .mobile .right_content {
+    padding: 20px 25px; }
+    .mobile .right_content p.pullQuote {
+      font-size: 1.83em;
+      line-height: 0.9;
+      margin: 25px 0; }
+      .mobile .right_content p.pullQuote:after {
+        height: 12px;
+        margin-top: 20px; }
+
+/*# sourceMappingURL=feature_02.css.map */

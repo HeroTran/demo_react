@@ -1,0 +1,67 @@
+{% extends "index.twig" %}
+
+{% block title %}{{ story.title }}{% endblock %}
+
+{% block javascript %}
+{{ parent() }}
+{% endblock %}
+
+{% block stylesheet %}
+{{ parent() }}
+	<link rel="stylesheet" href="{{ design }}/stylesheets/behind_the_page.css">
+{% endblock %}
+
+{% block bodyclass %}color_{{ section.color }}{% endblock %}
+{% block bodyid %}story{% endblock %}
+
+{% block content %}
+<div id="behind-the-page" class="landscape">
+	<div class="header">
+		<span>	{% if story.strap_line != '' %}
+					{{ story.strap_line }}
+				{% else %}{{section.name}}
+				{% endif %}</span>
+	</div>
+	<div class="container">
+		<div class="content-area" id="pagination">
+			<div class="content-body">
+				{% if story.image|length > 0%}
+				<div class="default-image" data-rel="amreader:media/gallery:{{story.defaultImageLink}}">
+					<img src="{{story.image.image_url}}"/>
+					<figcaption>{{story.image.caption}}</figcaption>
+				</div>
+				{% endif %}
+				<div class="head-info">
+					{% if story.sub_title != '' %}
+						<p class="sub_title">{{ story.sub_title }}</p>
+					{% endif %}
+					<h3 class="title">{{ story.title }}</h3>
+					{% if story.byline != '' %}
+					<p class="byline">{{ story.byline }}</p>
+					{% endif %}
+				</div>
+				<div class="right_content">
+				{{ story.body }}
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		{% set credit = "" %}
+		{% if story.image.source != "" %}
+		{% set credit = credit ~ story.image.source %}
+		{% endif %}
+		{% for image in story.related_objects.image  %}
+		{% if image.portrait and image.source != "" %}
+			{% set credit = credit ~ ' ' ~ image.source %}
+		{% endif %}
+		{% endfor %}
+		{% if story.byline != '' %}
+			<p class="byline">{{ story.byline }}</p>
+		{% endif %}
+		{% if credit and credit != "" %}
+			<span class="photo-credit">{{credit}}</span>
+		{% endif %}
+	</div>
+</div>
+{% endblock %}

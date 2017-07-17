@@ -1,0 +1,31 @@
+{% extends "index.twig" %}
+
+{% block title %}{{ story.title }}{% endblock %}
+
+{% block javascript %}
+{{ parent() }}
+	<link rel="stylesheet" href="{{ design }}/stylesheets/cover.css">
+
+{% endblock %}
+
+{% block stylesheet %}
+{{ parent() }}
+{% endblock %}
+
+{% block bodyclass %}color_{{ section.color }}{% endblock %}
+{% block bodyid %}story{% endblock %}
+
+{% block content %}
+<div id="cover" class="portrait">
+	<div class="container">
+		<div class="content-area" id="pagination">
+			<div class="content-body">
+				{% if story.image|length > 0%}
+				<div class="default-image" data-rel="amreader:media/gallery:{{story.defaultImageLink}}" style="background-image: url('{{story.image.image_url}}')">
+				</div>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

@@ -1,0 +1,81 @@
+body {
+  padding-top: 38px; }
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  height: 38px;
+  width: 100%;
+  background: #000;
+  color: #fff;
+  padding: 0 50px; }
+
+.header span {
+  position: absolute;
+  left: 50px;
+  top: 0;
+  height: 100%;
+  padding: 0 2px;
+  font-family: 'TungstenNarrow';
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.9;
+  letter-spacing: 0.07em;
+  text-transform: uppercase; }
+
+.head-info .intro {
+  font-family: 'Geogrotesque';
+  font-size: 1.067em;
+  line-height: 1.25;
+  letter-spacing: 0;
+  margin-top: 16px; }
+
+.head-info .title {
+  font-family: 'AImpacto';
+  font-size: 2.93em;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: #000;
+  margin: 8px 0; }
+
+.head-info .byline {
+  font-family: 'TungstenNarrow';
+  font-weight: 600;
+  font-size: 1.47em;
+  letter-spacing: 0.07em;
+  line-height: 1;
+  text-transform: uppercase; }
+
+.content-area {
+  padding: 40px 50px; }
+
+.right_content {
+  padding-bottom: 40px; }
+
+.right_content > p:not(.pullQuote) {
+  font-family: 'Geogrotesque';
+  font-weight: 500; }
+
+figcaption p {
+  color: #ee3823; }
+
+.image figcaption .credit {
+  display: none; }
+
+.mobile {
+  padding-top: 25px; }
+  .mobile .header {
+    padding: 0 25px;
+    height: 24px; }
+    .mobile .header span {
+      left: 25px;
+      font-size: 16px;
+      line-height: 1.51; }
+  .mobile .head-info .title {
+    font-size: 2.07em;
+    line-height: 1.05; }
+  .mobile .content-area {
+    padding: 25px; }
+
+/*# sourceMappingURL=behind_the_page.css.map */

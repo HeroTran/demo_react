@@ -1,0 +1,31 @@
+
+{% extends "story-portrait.html" %}
+
+{% block title %}{{ story.title }}{% endblock %}
+
+{% block javascript %}
+{{ parent() }}
+{% endblock %}
+
+
+
+{% block bodyclass %}color_{{ section.color }}{% endblock %}
+{% block bodyid %}story{% endblock %}
+
+{% block content %}
+<div id="story" class="feature">
+	<section class="view features page index-0 story portrait column am_page">
+		
+		<div class="clearfix">
+			<div class="feature-image"><div class="am_df_image" data-orientation="true"></div><span class="icon_gallery am_gallery"></span></div>
+			<header>
+				<h1 class="am_title">Heading 3 | {{story.title}}</h1>
+				<h2 class="am_intro">Heading 1 | {{story.intro}}</h2>
+			</header>
+		</div>
+		<div class="clearfix"></div>
+		<div class="am_body group clearfix">{{story.body}}</div>
+		<div class="arrow_down"><span></span></div>
+	</section>
+</div>
+{% endblock %}

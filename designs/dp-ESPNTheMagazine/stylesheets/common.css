@@ -1,0 +1,201 @@
+html, body {
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  height: 100%;
+  min-width: 300px; }
+
+a {
+  text-decoration: none; }
+
+.portrait, .landscape {
+  max-height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch; }
+
+body {
+  background-color: #fff;
+  font-family: 'MillerText-Roman',Georgia, sans-serif;
+  font-size: 15px;
+  line-height: 1.33;
+  font-weight: normal;
+  margin: 0; }
+
+.header {
+  z-index: 9999; }
+
+.content-area {
+  padding-top: 40px; }
+
+.right_content .image, .default-image {
+  text-align: center; }
+
+.right_content .image img, .default-image img {
+  max-width: 100%;
+  height: auto; }
+
+.right_content > p:not(.pullQuote) {
+  font-family: 'MillerText-Roman';
+  font-size: 1.067em;
+  font-weight: normal;
+  line-height: 1.25;
+  color: #000;
+  margin: 0;
+  text-indent: 0; }
+
+.right_content > p:not(.pullQuote) b:nth-of-type(1) {
+  font-family: 'Geogrotesque';
+  text-transform: uppercase; }
+
+.right_content > p:not(.pullQuote) + p:not(.pullQuote) {
+  text-indent: 30px; }
+
+.right_content > p + .image {
+  margin-top: 35px; }
+
+.right_content .image + .image {
+  margin-top: 25px; }
+
+.right_content .image + table {
+  margin-top: 20px; }
+
+.right_content .image + p {
+  margin-top: 35px; }
+
+.right_content > h3 + p.pullQuote {
+  margin-top: 9px; }
+
+.right_content > h3 {
+  font-family: 'Geogrotesque';
+  font-size: 1.081em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 22px 0 0 0; }
+
+.right_content > h3 + p {
+  text-indent: 0; }
+
+.right_content table {
+  width: 100%;
+  background-color: transparent; }
+
+.right_content table .image {
+  margin: 10px auto; }
+
+figcaption {
+  display: block !important;
+  text-align: left !important;
+  margin: auto;
+  padding: 15px 0 0 0;
+  font-size: 1.067em;
+  line-height: 1.25; }
+  figcaption h3 {
+    font-family: 'GeogrotesqueCond';
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: -0.01em;
+    color: #ef3b24;
+    text-transform: uppercase; }
+  figcaption p {
+    font-family: 'Geogrotesque';
+    font-weight: 500;
+    color: #58595b;
+    margin: 0;
+    display: inline; }
+  figcaption .credit {
+    color: #000;
+    display: none; }
+
+table.renderedtable {
+  border-top: 2px solid #414042;
+  margin-top: 85px; }
+  table.renderedtable td {
+    padding: 25px 0 0 0; }
+  table.renderedtable p:nth-last-of-type(1) {
+    font-family: 'Geogrotesque';
+    font-size: 1.067em;
+    line-height: 1.143;
+    letter-spacing: 0.008em; }
+    table.renderedtable p:nth-last-of-type(1) b:nth-of-type(1) {
+      text-transform: uppercase;
+      color: #ee3823; }
+  table.renderedtable p:nth-last-of-type(2) {
+    font-family: 'Geogrotesque';
+    font-size: 0.8em;
+    line-height: 1.167;
+    letter-spacing: 0.008em;
+    margin-bottom: 20px; }
+
+.footer {
+  text-align: right;
+  border-top: 17px solid black;
+  margin: 0 50px 30px 50px;
+  padding-top: 40px; }
+  .footer .byline {
+    font-family: 'Geogrotesque';
+    font-weight: 500;
+    font-size: 0.73em;
+    margin: 0 0 5px 0;
+    letter-spacing: 0.1em;
+    padding-left: 40%;
+    text-transform: uppercase; }
+  .footer .photo-credit {
+    font-family: 'Geogrotesque';
+    font-weight: 500;
+    font-size: 0.53em;
+    letter-spacing: 0.1em;
+    display: block;
+    padding-left: 40%;
+    text-transform: uppercase; }
+
+.mobile figcaption {
+  padding: 10px 0 0 0;
+  font-size: 0.8em;
+  line-height: 1.17; }
+.mobile .right_content > p:not(.pullQuote) {
+  font-size: 0.93em;
+  line-height: 1.29; }
+.mobile .right_content > p + .image,
+.mobile .right_content .image + p {
+  margin-top: 25px; }
+.mobile .right_content .image + .image {
+  margin-top: 15px; }
+.mobile table.renderedtable {
+  border-top: 1px solid #414042;
+  margin-top: 15px; }
+  .mobile table.renderedtable td {
+    padding: 15px 0 0 0; }
+  .mobile table.renderedtable p:nth-last-of-type(1) {
+    font-size: 0.93em; }
+  .mobile table.renderedtable p:nth-last-of-type(2) {
+    font-size: 0.8em;
+    margin-bottom: 10px; }
+.mobile .footer {
+  margin: 0 25px 20px 25px;
+  padding-top: 14px;
+  border-top: 6px solid black; }
+  .mobile .footer .byline {
+    padding-left: 0;
+    font-size: 0.67em;
+    line-height: 1; }
+
+.text-size-1 p.dropcap:first-letter {
+  margin: 11px 5px 0 0; }
+
+.text-size-2 p.dropcap:first-letter {
+  margin: 12px 5px 0 0; }
+
+.mode-1 .header {
+  background-color: #000; }
+
+.mode-1 .footer > p,
+.mode-1 .right_content > p {
+  border-color: white !important; }
+
+.mode-1 .footer {
+  border-top: 3px solid #fff; }
+
+.mode-1 .byline span b {
+  color: #fff; }
+
+/*# sourceMappingURL=common.css.map */

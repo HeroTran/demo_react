@@ -1,0 +1,20 @@
+<p class="byline"><b>BY CAITLIN MCGARRY</b></p>
+
+<div class="">		
+
+    
+        
+    
+                                                                                                                                            <img src="/var/site_496/storage/images/media2/images/uber2/468250-1-eng-US/uber.jpg" width="4870" height="2761"  style="border: 0px  ;" alt="uber" title="uber" />
+        		<figcaption style="display:none">
+</figcaption>
+    
+    
+    
+    </div><p><b>I</b>n 2015, Uber almost got itself kicked out of the iOS App Store. Apple CEO Tim Cook brought Uber CEO Travis Kalanick into the company’s Cupertino offices and laid down the law, the <a href="http://go.macworld.com/nytuber" target="_self"><i>New York Times</i> reported</a>.</p>
+<p>So what exactly did Uber do to land itself in hot water with Apple? The original NYT report initially said the company was tracking iPhones, but it has since been clarified to describe Uber’s actions as “identifying and tagging iPhones even after its app has been deleted and the devices erased.” The reason Uber did that, the company said, was to prevent phone thieves in China from creating Uber accounts and requesting rides before wiping the devices and doing so again and again.</p>
+<p>“We absolutely do not track individual users or their location if they’ve deleted the app,” an Uber spokesperson told <a href="http://go.macworld.com/tcuber" target="_self">TechCrunch</a>. “As the <i>New York Times</i> story notes towards the very end, this is a typical way to prevent fraudsters from loading Uber onto a stolen phone, putting in a stolen credit card, taking an expensive ride and then wiping the phone—over and over again. Similar techniques are also used for detecting and blocking suspicious logins to protect our users’ accounts. Being able to recognize known bad actors when they try to get back onto our network is an important security measure for both Uber and our users.”</p>
+<p>But how exactly did Uber track devices after they had been wiped? Security expert <a href="http://go.macworld.com/strafach" target="_self">Will Strafach</a> looked at a 2014 build of Uber’s app and found the company was using private APIs to pull iPhone serial numbers from the device registry using Apple’s IOKit framework. Uber’s fingerprinting technique doesn’t work in iOS 10, so the company can’t identify your device after you delete the app, Strafach noted (as spotted in a worthwhile read <a href="http://go.macworld.com/dfuber" target="_self">on Daring Fireball</a>).</p>
+<p class="pullQuote">Apple found that Uber was not only violating the App Store developer rules, but trying to cover its tracks by geofencing its code so Cupertino app reviewers wouldn’t see the private APIs at work.</p>
+<p>Apparently, Uber’s fingerprinting wasn’t a big enough privacy violation to get kicked out of the App Store. Apple found that Uber was not only violating the App Store developer rules, but trying to cover its tracks by geofencing its code so Cupertino app reviewers wouldn’t see the private APIs at work. That didn’t work for long, which is how Kalanick ended up in Cook’s office. According to the <i>Times,</i> Kalanick was visibly shaken by the encounter.</p>
+<p><b>Why this matters:</b> Uber is having a rough year entirely of its own making. It’s unclear if this latest privacy kerfuffle will inspire more Uber users to delete the app, as they did when widespread allegations of workplace harassment came to light and a video of Kalanick yelling at an Uber driver emerged. But it is clear that Uber needs to do something to fix its public relations problems. Maybe not acting so terrible all the time would be a good place to start.</p>

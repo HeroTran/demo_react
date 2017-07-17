@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<designpack id="am-rs">
+	<name>PC Mag</name>
+	<designer>Kevin</designer>
+	<created-date>10 Aug 2015</created-date>
+	<story>
+		<portrait>
+			<layout type="story" orientation="portrait" id="am-rs-portrait-1">
+				<name>Article Whats New</name>
+				<link>article_whatsnew.twig</link>
+				<related>am-rs-portrait-1</related>
+				<thumbnail>article_whatsnew.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-rs-portrait-2">
+				<name>Article Digital</name>
+				<link>article_digital.twig</link>
+				<related>am-rs-portrait-2</related>
+				<thumbnail>article_digital.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-rs-portrait-3">
+				<name>Article Features</name>
+				<link>article_features.twig</link>
+				<related>am-rs-portrait-3</related>
+				<thumbnail>article_features.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-rs-portrait-4">
+				<name>Reviews</name>
+				<link>reviews.twig</link>
+				<related>am-rs-portrait-4</related>
+				<thumbnail>reviews.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-rs-portrait-4-1">
+				<name>Reviews Editor Choice</name>
+				<link>reviews_editor_choice.twig</link>
+				<related>am-rs-portrait-4-1</related>
+				<thumbnail>reviews_editor_choice.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-rs-portrait-5">
+				<name>First Word</name>
+				<link>first_word.twig</link>
+				<related>am-rs-portrait-5</related>
+				<thumbnail>first_word.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-rs-portrait-6">
+				<name>Reader Input</name>
+				<link>reader_input.twig</link>
+				<related>am-rs-portrait-6</related>
+				<thumbnail>reader_input.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-rs-portrait-7">
+				<name>Top Gear</name>
+				<link>top_gear.twig</link>
+				<related>am-rs-portrait-7</related>
+				<thumbnail>top_gear.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-rs-portrait-8">
+				<name>Editorial Masthead</name>
+				<link>editorial_masthead.twig</link>
+				<related>am-rs-portrait-8</related>
+				<thumbnail>editorial_masthead.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-rs-portrait-9">
+				<name>Cover</name>
+				<link>cover.twig</link>
+				<related>am-rs-portrait-9</related>
+				<thumbnail>cover.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+		</portrait>
+		<landscape>
+			<layout type="story" orientation="landscape" id="am-rs-landscape-1">
+				<name>Article Whats New</name>
+				<link>article_whatsnew-l.twig</link>
+				<related>am-rs-landscape-1</related>
+				<thumbnail>article_whatsnew_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-rs-landscape-2">
+				<name>Article Digital</name>
+				<link>article_digital-l.twig</link>
+				<related>am-rs-landscape-2</related>
+				<thumbnail>article_digital_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-rs-landscape-3">
+				<name>Article Features</name>
+				<link>article_features-l.twig</link>
+				<related>am-rs-landscape-3</related>
+				<thumbnail>article_features_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-rs-landscape-4">
+				<name>Reviews</name>
+				<link>reviews-l.twig</link>
+				<related>am-rs-landscape-4</related>
+				<thumbnail>reviews_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-rs-landscape-4-1">
+				<name>Reviews Editor Choice</name>
+				<link>reviews_editor_choice-l.twig</link>
+				<related>am-rs-landscape-4-1</related>
+				<thumbnail>reviews_editor_choice_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-rs-landscape-5">
+				<name>First Word</name>
+				<link>first_word-l.twig</link>
+				<related>am-rs-landscape-5</related>
+				<thumbnail>first_word_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-rs-landscape-6">
+				<name>Reader Input</name>
+				<link>reader_input-l.twig</link>
+				<related>am-rs-landscape-6</related>
+				<thumbnail>reader_input_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-rs-landscape-7">
+				<name>Top Gear</name>
+				<link>top_gear-l.twig</link>
+				<related>am-rs-landscape-7</related>
+				<thumbnail>top_gear_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-rs-landscape-8">
+				<name>Editorial Masthead</name>
+				<link>editorial_masthead-l.twig</link>
+				<related>am-rs-landscape-8</related>
+				<thumbnail>editorial_masthead_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-rs-landscape-9">
+				<name>Cover</name>
+				<link>cover-l.twig</link>
+				<related>am-rs-landscape-9</related>
+				<thumbnail>cover_l.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+		</landscape>
+	</story>
+	<section>
+		<portrait>
+			<layout></layout>
+		</portrait>
+		<portrait>
+			<layout></layout>
+		</portrait>
+		<color>
+			<item>009bee</item>
+			<item>c20a1f</item>
+			<item>01b2b8</item>
+			<item>ffa700</item>
+			<item>7accb6</item>
+			<item>333192</item>
+			<item>ee2375</item>
+		</color>
+	</section>
+</designpack>

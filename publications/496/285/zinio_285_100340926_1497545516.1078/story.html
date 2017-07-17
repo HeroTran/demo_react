@@ -1,0 +1,21 @@
+<p class="byline"><b>BY GLENN FLEISHMAN</b></p>
+
+<div class="">		
+
+    
+        
+    
+                                                                                                                                            <img src="/var/site_496/storage/images/media2/images/f0081-0156/474931-1-eng-US/f0081-012.jpg" width="652" height="378"  style="border: 0px  ;" alt="f0081-01" title="f0081-01" />
+        		<figcaption style="display:none">
+</figcaption>
+    
+    
+    
+    </div><p><b>W</b>annaCrypt may be exclusively a problem for Windows users, but the worm/virus combination could hit a Mac user with a Boot Camp partition or Windows virtual machines in VMware Fusion, Parallels, or other software. If you fit that bill and haven’t booted your Windows system since mid?March or you didn’t receive or install Microsoft’s vital security update (MS17?010) released at that time, read on. It’s critical that you don’t start up a Windows XP or later installation that’s unpatched and let it connect to the Internet unless you’re absolutely sure you have the SMB file-sharing service disabled or firewall or network-monitoring software installed that will block any attempt from an outside connection.</p>
+<p>Also, if you use Windows XP or a few later releases of Windows that are past Microsoft’s end of support since mid-March, you wouldn’t have received the security updates that Microsoft was reserving only for corporate subscribers <a href="http://go.macworld.com/corp" target="_self">until mid-May</a>. At that point, it made these updates generally available. If you booted any of those systems between mid-March and mid-May, you’re unprotected as well.</p>
+<p>If your Mac is on a network that uses NAT and DHCP to provide private IP addresses, which is most home networks and most small-office ones, and your router isn’t set up to connect the SMB file service from outside the local private network to your computer (whether Boot Camp or a VM), then the WannaCrypt worm can only attack your system from other computers on the same network. If they’re already patched or there are no other Windows instances of any kind, you can boot up the system, disable SMBv1, and apply the patches.</p>
+<p>If you don’t want to take that chance or you have a system that can be reached from the greater Internet directly through whatever method (a routable IP or router port mapping to your Mac), you should disable networking on your computer before restarting into Boot Camp or launching a VM. This is easy with ethernet, but if you’re using Wi-Fi for your Windows instance, you need to unplug your network from the Internet.</p>
+<p>After booting, disable SMBv1. This prevents the worm from reaching your computer, no matter where it is. Microsoft offers instructions for Windows 7 and later at this <a href="http://go.macworld.com/supp" target="_self">support note</a>. If you have a Windows XP system, the process requires directly editing the Registry, and you will want to install firewall software to prevent incoming connections to SMB (port 445) before proceeding. The firewall approach is a good additional method for any Windows instance.</p>
+<p>Once you’ve either disabled SMBv1 or have a firewall in place, you can enable network access and install all the patches required for your release, including MS17-010.</p>
+<p>In some cases, you no longer need SMBv1, already known to be problematic, and can leave it disabled. If for legacy reasons you have to re-enable it, make sure you have both networking monitoring and firewall software (separately or a single app) that prevents unwanted and unexpected SMB access.</p>
+<p class="pullQuote">After booting, disable SMBv1. This prevents the worm from reaching your Mac, no matter where it is. Microsoft offers instructions for Windows 7 and later at this support note</p>

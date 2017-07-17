@@ -1,0 +1,258 @@
+.header{
+	padding: 0;
+	font-family: 'ProximaNova';
+	.logo{
+	    font-weight: 600;
+	    display: inline-block;
+	    color: white !important;
+	    box-sizing: border-box;
+	    font-size: 15px;
+	    line-height: 15px;
+	    text-transform: uppercase;
+	    padding: 10px;
+	    background-color: black;
+	    height: 34px;
+	    position: relative;
+	}
+	.section {
+	    height: 100%;
+	    display: inline-block;
+	    margin-left: -4px;
+	    font-size: 15px;
+	    font-weight: 600;
+	    line-height: 15px;
+	    background-color: #00aeef;
+	    padding: 10px;
+	    box-sizing: border-box;
+	}
+	.wrapper {
+		margin-top: 12px;
+		border-bottom: none;
+		height: 34px;
+	}
+}
+.banner{
+    position: absolute;
+    box-sizing: border-box;
+    height: 70px;
+    width: 100%;
+    top: 0;
+    left: 20px;
+    font-family: 'ProximaNova';
+    background: transparent !important;
+	.logo{
+	    font-weight: bold;
+	    display: inline-block;
+	    color: #000;
+	    box-sizing: border-box;
+	    font-size: 15px;
+	    line-height: 15px;
+	    text-transform: uppercase;
+	    padding: 10px;
+	    background-color: #fff;
+	    margin-top: 12px;
+	    margin-left: 24px;
+	    height: 34px;
+	    position: relative;
+	    border: 1px solid #000;
+	}
+}
+.full-screen{
+	.cover {
+		.default-image {
+	    	background-size: cover;
+	    	background-position: center 0;
+	    	background-repeat: no-repeat;
+		}
+	}
+}
+.head-info{
+    font-family: 'ProximaNova', Arial;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 40px 44px 70px 44px;
+    background: #fff;
+	h2.title {
+	    margin-bottom: 0;
+	    text-transform: uppercase;
+	    font-weight: 600;
+	    letter-spacing: -0.06em;
+	    font-size: 60px;
+	    line-height: 50px;
+	    color: #000608;
+	    text-align: left;
+	}
+	.author {
+	    font-size: 1em;
+	    font-weight: 600;
+	    letter-spacing: -0.03em;
+	    background: none;
+	    color: #000;
+	    font-family: 'ProximaNova', Arial;
+	    padding: 0;
+	    margin: 0;
+	    display: inline;
+	    text-transform: capitalize;
+	}
+	.intro{
+		text-align: left;
+		text-transform: uppercase;
+	}
+	.strap-line {
+	    text-transform: uppercase;
+	    font-weight: 600;
+	    letter-spacing: -0.06em;
+	    font-size: 60px;
+	    line-height: 60px;
+	    color: #356e99;
+	    text-align: left;
+	}
+}
+.content-body > p {
+	font-weight: 300;
+	font-size: 1em;
+}
+.content-body > p.dropcap:first-letter
+,.content-body > p.dropcap .dropcap-letter
+{
+    color: #00aeef;
+    font-weight: 100;
+}
+.content-body {
+	font-family: 'ProximaNova';
+	h3,h4{
+		font-weight: 600;
+		color:#696969;
+		b{
+			font-weight: 600;
+		}
+	}
+	> p.done-dot:after {
+		border-left: 5px solid #00aeef !important;
+		border-right: 5px solid #00aeef !important;
+	}
+	figcaption {
+		text-align: left;
+		font-weight: bold;
+		font-size: 0.867em;
+		color: #666666;
+		line-height: 138.46%;
+	}
+	p.pullQuote {
+		border-left: none !important;
+		padding: 0;
+		color: #00aeef;
+	}
+}
+.footer .nav-dots .dot.active {
+    background-color: #00aeef;
+}
+.landscape{
+	.banner{
+		.subtitle {
+		    width: 460px;
+		}
+	}
+	.head-info{
+		.title, .intro, .strap-line, .subtitle, .author {
+			color: #fff;
+			text-shadow:1px 2px 4px rgba(0,0,0,0.35);
+		}
+		.intro{
+			margin-bottom: 0;
+		}
+	}
+	.full-screen{
+		.cover {
+			.default-image {
+			    background-position: center center !important;
+			    background-size: contain;
+			}
+		}
+	}
+}
+.mobile {
+	.header {
+		display: none;
+	}
+	.cover {
+		width: 100% !important;
+		padding: 0 15px !important;
+		.banner {
+			position: static;
+			height: auto;
+		    .section {
+		    	font-size: 12px;
+		    }
+			.logo {
+			    font-size: 12px;
+			    line-height: 10px;
+			    height: 23px;
+			    padding: 7px 5px;
+			    margin: 20px 0 0 0;
+			}
+			.logo:after {
+				width: 7px;
+				right: -7px;
+			}
+			.subtitle {
+			    padding: 0;
+			    font-size: 12px;
+			    line-height: 117%;
+			    margin: 10px 0 0 0;
+			}
+		}
+	}
+	.default-image {
+		background-image: none !important;
+	    height: auto !important;
+	    width: 100% !important;
+	    float: none;
+	    margin: 15px 0;
+	}
+	.head-info {
+		position: static;
+	    padding: 0;
+	    margin-bottom: 15px;
+		.title{
+			font-size: 2.5em;
+		    line-height: 100%;
+		    margin-bottom: 4px;
+		}
+		.strap-line{
+		    font-size: 100%;
+		    line-height: 1;
+		}
+	}
+	.content-body {
+		> p.done-dot:after {
+			border-left: 3px solid #00aeef !important;
+			border-right: 3px solid #00aeef !important;
+		}
+		p.pullQuote {
+			text-transform: uppercase !important;
+		}
+	}
+}
+.mode-1 {
+	.head-info{
+		background-color: #000;
+	}
+	.head-info .title,
+	.head-info .author,
+	.banner .subtitle {
+		color: #fff;
+	}
+}
+.ios-9{
+	&.completed{
+		.content-area{
+			.content-body{
+				.dropcap{
+					display: inline-block;
+				}
+			}
+		}
+	}
+}

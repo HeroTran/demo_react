@@ -1,0 +1,22 @@
+{
+  "name": "pc-magazine",
+  "version": "1.0.0",
+  "description": "webpack project starter",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "prod": "webpack -p"
+  },
+  "author": "Dinh Lam",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.27.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "node-sass": "^4.5.1",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.13.0",
+    "webpack": "^2.5.1",
+    "zip-webpack-plugin": "^1.1.0"
+  }
+}

@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for actions/types.ts</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../index.html">All files</a> / <a href="index.html">actions</a> types.ts
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>48/48</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>48/48</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**
+ * Type Action For Home Magazine
+ */
+export const SHOW_LIST_SITE = 'SHOW_LIST_SITE';
+export const SHOW_MODAL = 'SHOW_MODAL';
+export const CLOSE_MODAL = 'CLOSE_MODAL';
+export const ON_CHANGE_INPUT = 'ON_CHANGE_INPUT';
+export const SUBMIT_CONFIG = 'SUBMIT_CONFIG';
+export const DELETE_SITE = 'DELETE_SITE';
+export const SEARCH_SITE = "SEARCH_SITE";
+&nbsp;
+/**
+ * Type Action For site magazine
+ */
+&nbsp;
+export const SHOW_ALL_SITE = 'SHOW_ALL_SITE';
+export const SHOW_FLAT_FORM = 'SHOW_FLAT_FORM';
+export const SHOW_RELOAD_PAGE = 'SHOW_RELOAD_PAGE';
+export const EVENT_DOWNLOAD = 'EVENT_DOWNLOAD';
+export const EVENT_VIEW = 'EVENT_VIEW';
+export const EVENT_DELETE = 'EVENT_DELETE';
+export const EVENT_CONFIG = 'EVENT_CONFIG';
+export const SHOW_TAB = 'SHOW_TAB';
+export const OPEN_MODAL = "OPEN_MODAL";
+export const CLOSE_MODAL_CONFIG = "CLOSE_MODAL_CONFIG";
+export const SEARCH_ISSUE = "SEARCH_ISSUE";
+export const CHANGE_LOADDING = "CHANGE_LOADDING";
+&nbsp;
+/**
+ * Type Action For site magazine
+ */
+&nbsp;
+export const SHOW_ALL_ISSUE = 'SHOW_ALL_ISSUE';
+export const SEARCH_STORY = 'SEARCH_STORY';
+export const BUTTON_CHANGE_FLATFORM = 'BUTTON_CHANGE_FLATFORM';
+export const BUTTON_CHANGE_MODE = 'BUTTON_CHANGE_MODE';
+export const BUTTON_CHANGE_WIDTH = 'BUTTON_CHANGE_WIDTH';
+export const BUTTON_CHANGE_SIZE = 'BUTTON_CHANGE_SIZE';
+export const ZOOM_FRAME = 'ZOOM_FRAME';
+export const CHANGE_URL_IFRAME = 'CHANGE_URL_IFRAME';
+export const CHANGE_LAYOUT = 'CHANGE_LAYOUT';
+export const CHANGE_SWIPE = 'CHANGE_SWIPE';
+&nbsp;
+export const DOWNLOAD_SUCCESS = 'DOWNLOAD_SUCCESS';
+export const DOWNLOAD_REQUEST = 'DOWNLOAD_REQUEST';
+export const DOWNLOAD_FAILED = 'DOWNLOAD_FAILED';
+&nbsp;
+export const DELETED_ISSUE_SUCCESS = 'DELETED_ISSUE_SUCCESS';
+export const DELETED_ISSUE_REQUEST = 'DELETED_ISSUE_REQUEST';
+export const DELETED_ISSUE_FAILED = 'DELETED_ISSUE_FAILED';
+&nbsp;
+/**
+ * Fetch Data
+ * 
+ */
+&nbsp;
+export const FETCH_DATA_SUCCCESS_MAGAZINE = "FETCH_DATA_SUCCCESS_MAGAZINE";
+export const FETCH_DATA_REQUESTED_MAGAZINE = "FETCH_DATA_REQUESTED_MAGAZINE";
+export const FETCH_DATA_FAILED_MAGAZINE = "FETCH_DATA_FAILED_MAGAZINE";
+&nbsp;
+export const FETCH_DATA_SUCCCESS_SITE = "FETCH_DATA_SUCCCESS_SITE";
+export const FETCH_DATA_REQUESTED_SITE = "FETCH_DATA_REQUESTED_SITE";
+export const FETCH_DATA_FAILED_SITE = "FETCH_DATA_FAILED_SITE";
+&nbsp;
+&nbsp;
+export const FETCH_DATA_SUCCCESS_ISSUE = "FETCH_DATA_SUCCCESS_ISSUE";
+export const FETCH_DATA_REQUESTED_ISSUE = "FETCH_DATA_REQUESTED_ISSUE";
+export const FETCH_DATA_FAILED_ISSUE = "FETCH_DATA_FAILED_ISSUE";
+&nbsp;
+export const FETCH_INFO_CONFIG_SUCCESS = "FETCH_INFO_CONFIG_SUCCESS";
+export const FETCH_INFO_CONFIG_REQUEST = "FETCH_INFO_CONFIG_REQUESTED";
+export const FETCH_INFO_CONFIG_FAILED = "FETCH_INFO_CONFIG_FAILED";</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Wed Jul 12 2017 17:02:57 GMT+0700 (ICT)
+</div>
+</div>
+<script src="../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../sorter.js"></script>
+</body>
+</html>

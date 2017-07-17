@@ -1,0 +1,186 @@
+.banner{
+	height: 100px;
+	box-sizing: border-box;
+	padding: 20px;
+	font-family: 'ProximaNova';
+	.logo{
+	    font-weight: 300;
+	    color: #e39717;
+	    font-size: 60px;
+	    padding: 3px 30px 0 0;
+	    margin-right: 30px;
+	    border-right: 1px solid #dadada;
+	    line-height: 60px;
+	    letter-spacing: -0.045em;
+	    display: inline-block;
+	    vertical-align: middle;
+	}
+	.subtitle {
+	    font-size: 17px;
+	   	font-weight: 300;
+	    line-height: 105.88%;
+	    letter-spacing: -0.03em;
+	    text-transform: uppercase;
+	    display: inline-block;
+	    width: 355px;
+	    margin-left: -4px;
+	    vertical-align: middle;
+	    padding-right: 10px;
+	    box-sizing: border-box;
+	}
+}
+.header {
+	.caption {
+		span{
+			margin-left: 8px;
+		}
+	}
+}
+.head-info{
+	position: absolute;
+	bottom: 0;
+	padding: 40px 20px 70px 20px;
+	background-color: white;
+}
+.cover {
+	.default-image {
+		background-size:contain !important;
+		background-position: 0 0 !important;
+		height: calc(100% - 100px) !important;
+	}
+}
+.content-body > p {
+	font-weight: 300;
+	font-size: 1em;
+}
+.content-body > p.dropcap:first-letter
+,.content-body > p.dropcap .dropcap-letter
+{
+    color: #e39717;
+    font-weight: 100;
+}
+.content-body {
+	font-family: 'ProximaNova';
+	h3{
+		font-size: 1.33em;
+		font-weight: bold;
+		line-height: 1.1;
+	}
+	> p.done-dot:after {
+		border-left: 5px solid #e39717 !important;
+		border-right: 5px solid #e39717 !important;
+	}
+	figcaption {
+		text-align: left;
+		font-weight: bold;
+		font-size: 0.867em;
+		color: #666666;
+		line-height: 138.46%;
+	}
+	> p.pullQuote {
+    	border-left: 2px solid #e1e1e1;
+	}
+}
+.landscape{
+	.cover {
+		.default-image{
+			background-size:cover !important;
+		}
+	}
+	.banner{
+		.subtitle {
+		    width: 450px;
+		}
+	}
+	.head-info{
+	    position: absolute;
+	    bottom: 70px;
+	    padding: 0 20px;
+	    height: auto;
+	}
+}
+.mobile {
+	.header {
+		display: none;
+	}
+	.cover {
+		width: 100% !important;
+		.banner {
+			padding: 30px 15px 12px 15px;
+		    text-align: center;
+		    min-height: 90px;
+    		height: auto;
+			.logo {
+				font-size: 40px;
+			    font-weight: 100;
+			    line-height: 30px;
+			    display: block;
+			    border: 0;
+			    width: 100%;
+			    padding: 0;
+			    margin-bottom: 10px;
+			}
+			.subtitle {
+				padding: 0;
+			    width: 230px;
+			    font-size: 0.71em;
+			    line-height: 120%;
+			}
+		}
+	}
+	.default-image {
+		background-image: none !important;
+    	height: auto !important;
+	}
+	.head-info {
+		padding: 15px;
+		.title{
+		    font-size: 1.93em;
+		    line-height: 100%;
+		    margin: 0;
+		}
+		.intro {
+		    font-size: 0.86em;
+		    letter-spacing: normal;
+		    margin: 2px 0 0 0;
+		}
+		.author{
+			margin: 8px 0 0 0;
+			font-size: 0.643em;
+		    line-height: 166.67%;
+		    min-height: 15px;
+		    letter-spacing: 0;
+		    box-sizing: border-box;
+		}
+	}
+	.content-body {
+		> p.done-dot:after {
+			border-left: 3px solid #e39717 !important;
+			border-right: 3px solid #e39717 !important;
+		}
+		> p.pullQuote {
+    		font-style: italic;
+    		b {
+    			font-weight: normal;
+    		}
+		}
+	}
+}
+.mode-1 {
+	.portrait {
+		.head-info {
+    		background-color: black;
+		}
+	}
+}
+.ios-9{
+	&.completed{
+		.content-area{
+			.content-body{
+				.dropcap{
+					display: inline-block;
+				}
+			}
+		}
+	}
+}

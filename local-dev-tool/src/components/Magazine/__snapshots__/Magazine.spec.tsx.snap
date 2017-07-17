@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Magazine component render with correct UI 1`] = `
+<ul>
+  <li
+    className="Section-issue"
+  >
+    <div
+      className="Issue-cover"
+    >
+      <img
+        src="images/magazines/pcworld.jpg"
+      />
+      <div
+        className="Issue-cover-overlay"
+      >
+        <div
+          className="Overlay-icons Issue-remove"
+        >
+          <a
+            onClick={[Function]}
+            style={Object {}}
+          >
+            <div
+              className="tit"
+            >
+              <i
+                className="material-icons md-12 dark"
+              >
+                visibility
+              </i>
+            </div>
+          </a>
+          <a
+            href="http://pcworld-us.audiencemedia.com/api/amm/v1/auth-issues"
+            target="_blank"
+          >
+            <div
+              className="tit"
+            >
+              <i
+                className="material-icons md-12 dark"
+              >
+                link
+              </i>
+               CMS
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      className="Issue-detail"
+    >
+      <ul
+        className="Issue-info"
+      >
+        <li
+          className="info-name"
+        >
+          PC World
+        </li>
+        <li
+          className="info-id"
+        >
+          987
+        </li>
+      </ul>
+    </div>
+  </li>
+</ul>
+`;

@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<designpack id="am-dp1">
+	<name>Design pack 1</name>
+	<designer>Kevin</designer>
+	<programmer>Tam Nguyen</programmer>
+	<created-date>12 July 2013</created-date>
+	<story>
+		<landscape>
+			<layout type="story" orientation="landscape" id="am-dp1-layout1">
+				<name>Layout 1</name>
+				<link>story-landscape-layout1.html</link>
+				<related>am-dp1-layout2</related>
+				<thumbnail>tablet-landscape-1.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="197x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-dp1-layout1b">
+				<name>Layout 1</name>
+				<link>story-landscape-layout1b.html</link>
+				<related>am-dp1-layout2b</related>
+				<thumbnail>tablet-landscape-1b.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="197x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-dp1-layout1c">
+				<name>Layout 1</name>
+				<link>story-landscape-layout1c.html</link>
+				<related>am-dp1-layout2c</related>
+				<thumbnail>tablet-landscape-1c.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="197x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-dp1-layout3">
+				<name>Layout 1</name>
+				<link>story-landscape-layout2.html</link>
+				<related>am-dp1-layout4</related>
+				<thumbnail>tablet-landscape-2.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="197x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-dp1-layout3b">
+				<name>Layout 1</name>
+				<link>story-landscape-layout2b.html</link>
+				<related>am-dp1-layout4b</related>
+				<thumbnail>tablet-landscape-2b.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="197x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-dp1-layout3c">
+				<name>Layout 1</name>
+				<link>story-landscape-layout2c.html</link>
+				<related>am-dp1-layout4c</related>
+				<thumbnail>tablet-landscape-2c.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="197x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-dp1-layout5">
+				<name>Layout 1</name>
+				<link>story-landscape-layout3.html</link>
+				<related>am-dp1-layout6</related>
+				<thumbnail>tablet-landscape-3.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="1024x768" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-dp1-layout7">
+				<name>Layout 1</name>
+				<link>story-landscape-layout4.html</link>
+				<related>am-dp1-layout8</related>
+				<thumbnail>tablet-landscape-4.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="1024x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-dp1-layout7b">
+				<name>Layout 1</name>
+				<link>story-landscape-layout4b.html</link>
+				<related>am-dp1-layout8b</related>
+				<thumbnail>tablet-landscape-4b.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="1024x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-dp1-layout9">
+				<name>Layout 1</name>
+				<link>story-landscape-layout11.html</link>
+				<related>am-dp1-layout10</related>
+				<thumbnail>tablet-landscape-11.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="1024x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-dp1-layout11">
+				<name>Layout 3</name>
+				<link>story-landscape-layout5.html</link>
+				<related>am-dp1-layout12</related>
+				<thumbnail>tablet-landscape-5.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="1024x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-dp1-layout13">
+				<name>Layout 1</name>
+				<link>story-landscape-layout6.html</link>
+				<related>am-dp1-layout14</related>
+				<thumbnail>tablet-landscape-6.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="1024x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="landscape" id="am-dp1-layout13b">
+				<name>Layout 1</name>
+				<link>story-landscape-layout6b.html</link>
+				<related>am-dp1-layout14b</related>
+				<thumbnail>tablet-landscape-6b.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="1024x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+		</landscape>
+		
+		<portrait>
+			<layout type="story" orientation="portrait" id="am-dp1-layout2">
+				<name>Layout 1</name>
+				<link>story-portrait-layout1.html</link>
+				<related>am-dp1-layout1</related>
+				<thumbnail>tablet-portrait-1.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="107x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-dp1-layout2b">
+				<name>Layout 1</name>
+				<link>story-portrait-layout1b.html</link>
+				<related>am-dp1-layout1b</related>
+				<thumbnail>tablet-portrait-1b.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="107x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-dp1-layout2c">
+				<name>Layout 1</name>
+				<link>story-portrait-layout1c.html</link>
+				<related>am-dp1-layout1b</related>
+				<thumbnail>tablet-portrait-1c.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="107x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-dp1-layout4">
+				<name>Layout 1</name>
+				<link>story-portrait-layout2.html</link>
+				<related>am-dp1-layout3</related>
+				<thumbnail>tablet-portrait-2.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="107x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-dp1-layout4b">
+				<name>Layout 1</name>
+				<link>story-portrait-layout2b.html</link>
+				<related>am-dp1-layout3b</related>
+				<thumbnail>tablet-portrait-2b.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="107x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-dp1-layout4c">
+				<name>Layout 1</name>
+				<link>story-portrait-layout2c.html</link>
+				<related>am-dp1-layout3b</related>
+				<thumbnail>tablet-portrait-2c.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="107x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-dp1-layout6">
+				<name>Layout 1</name>
+				<link>story-portrait-layout3.html</link>
+				<related>am-dp1-layout5</related>
+				<thumbnail>tablet-portrait-3.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x1024" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-dp1-layout8">
+				<name>Layout 1</name>
+				<link>story-portrait-layout4.html</link>
+				<related>am-dp1-layout7</related>
+				<thumbnail>tablet-portrait-4.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-dp1-layout8b">
+				<name>Layout 1</name>
+				<link>story-portrait-layout4b.html</link>
+				<related>am-dp1-layout7b</related>
+				<thumbnail>tablet-portrait-4b.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-dp1-layout10">
+				<name>Layout 1</name>
+				<link>story-portrait-layout11.html</link>
+				<related>am-dp1-layout9</related>
+				<thumbnail>tablet-portrait-11.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-dp1-layout12">
+				<name>Layout 5</name>
+				<link>story-portrait-layout5.html</link>
+				<related>am-dp1-layout11</related>
+				<thumbnail>tablet-portrait-5.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-dp1-layout14">
+				<name>Layout 1</name>
+				<link>story-portrait-layout6.html</link>
+				<related>am-dp1-layout13</related>
+				<thumbnail>tablet-portrait-6.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+			<layout type="story" orientation="portrait" id="am-dp1-layout14b">
+				<name>Layout 1</name>
+				<link>story-portrait-layout6b.html</link>
+				<related>am-dp1-layout13b</related>
+				<thumbnail>tablet-portrait-6b.jpg</thumbnail>
+				<rules>
+					<headline>true</headline>
+					<deck>false</deck>
+					<content>true</content>
+					<images total="1" define="false" df-size="768x0" df-title="false" df-author="false" df-desc="false">
+					</images>
+				</rules>
+			</layout>
+		</portrait>
+	</story>
+	<section>
+		<landscape>
+			<layout type="brief" orientation="landscape" id="am-fnb-dp1-section-1">
+							<name>Layout section Cover</name>
+							<link>toc-landscape-1.html</link>
+							<related></related>
+							<thumbnail>tablet-landscape-3.jpg</thumbnail>
+							<rules>
+								<headline>false</headline>
+								<deck>false</deck>
+								<content>false</content>
+								<images total="1" define="false" df-size="0x0" df-title="true" df-author="false" df-desc="true">
+								</images>
+							</rules>
+						</layout>
+			
+						<layout type="welcome" orientation="landscape" id="am-fnb-dp1-section-3">
+										<name>Layout section Cover</name>
+										<link>toc-landscape-1.html</link>
+										<related></related>
+										<thumbnail>tablet-landscape-5.jpg</thumbnail>
+										<rules>
+											<headline>false</headline>
+											<deck>false</deck>
+											<content>false</content>
+											<images total="1" define="false" df-size="0x0" df-title="true" df-author="false" df-desc="true">
+											</images>
+										</rules>
+									</layout>
+			</landscape>
+		<portrait><layout type="brief" orientation="portrait" id="am-fnb-dp1-section-2">
+				<name>Layout section Cover</name>
+				<link>toc-portrait-1.html</link>
+				<related></related>
+				<thumbnail>tablet-portrait-3.jpg</thumbnail>
+				<rules>
+					<headline>false</headline>
+					<deck>false</deck>
+					<content>false</content>
+					<images total="1" define="false" df-size="0x0" df-title="true" df-author="false" df-desc="true">
+					</images>
+				</rules>
+			</layout>
+			<layout type="welcome" orientation="portrait" id="am-fnb-dp1-section-4">
+							<name>Layout section Cover</name>
+							<link>toc-portrait-1.html</link>
+							<related></related>
+							<thumbnail>tablet-portrait-5.jpg</thumbnail>
+							<rules>
+								<headline>false</headline>
+								<deck>false</deck>
+								<content>false</content>
+								<images total="1" define="false" df-size="0x0" df-title="true" df-author="false" df-desc="true">
+								</images>
+							</rules>
+						</layout></portrait>
+		<color>
+			<item>C2867E</item>
+			<item>D7C700</item>
+			<item>A8A89F</item>
+			<item>6894BC</item>
+			<item>B12B46</item>
+			<item>653A71</item>
+			<item>000000</item>
+		</color>
+	</section>
+</designpack>

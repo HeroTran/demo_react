@@ -1,0 +1,62 @@
+
+{% extends "story-portrait.html" %}
+
+{% block title %}{{ story.title }}{% endblock %}
+
+{% block javascript %}
+{{ parent() }}
+{% endblock %}
+
+
+
+{% block bodyclass %}color_{{ section.color }}{% endblock %}
+{% block bodyid %}story{% endblock %}
+
+{% block content %}
+<div id="story">
+	<section class="template_international full-page page index-0 story portrait column am_page" style="position:absolute; left:0;">
+		<div class="title">
+			<h1 class="am_title">{{story.title}}</h1>
+			<div>
+				<p class="am_intro">{{story.intro}}</p>
+			</div>
+		</div>
+		<figure class="image_item column">
+			<div class="firgure img am_df_image" data-orientation="true"></div>
+			<div class="popup">
+				<span class="icon"></span>
+			</div>
+			<aside class="img_desc">
+				<span class="icon_close"></span>
+				<h2 class="am_df_image_name"></h2>
+				<div class="am_df_image_caption"></div>
+			</aside>
+			<div class="control">
+				<div class="prev"></div>
+				<div class="next"></div>
+			</div>
+		</figure>
+		<nav class="bottom-nav paging" role='navigation'>
+		</nav>
+	</section>
+	<section class="template_international full-page page index-tween story portrait column am_page col" style="position:absolute; left:768px;">
+		<figure class="image_item column">
+			<div class="firgure img" data-orientation="true"></div>
+			<div class="popup">
+				<span class="icon"></span>
+			</div>
+			<aside class="img_desc">
+				<span class="icon_close"></span>
+				<h2 class="am_name"></h2>
+				<div class="am_caption"></div>
+			</aside>
+			<div class="control">
+				<div class="prev"></div>
+				<div class="next"></div>
+			</div>
+		</figure>
+		<nav class="bottom-nav paging" role='navigation'>
+		</nav>
+	</section>
+</div>
+{% endblock %}

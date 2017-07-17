@@ -1,0 +1,255 @@
+html, body {
+  height: 100%; }
+
+html, body, .header {
+  background-color: #000; }
+
+.banner {
+  height: 86px;
+  box-sizing: border-box;
+  padding: 0 20px 0px 20px;
+  font-family: 'ProximaNova';
+  background-color: black; }
+  .banner .logo {
+    font-weight: bold;
+    display: inline-block;
+    color: white;
+    box-sizing: border-box;
+    height: 46px;
+    font-size: 15px;
+    line-height: 10px;
+    text-transform: uppercase;
+    padding: 24px 10px 12px 10px;
+    background-color: #009591; }
+  .banner .title {
+    text-transform: uppercase;
+    letter-spacing: -0.03em;
+    font-weight: bold;
+    margin-left: 35px;
+    box-sizing: border-box;
+    font-size: 57px;
+    color: #555555;
+    line-height: 50px;
+    margin-bottom: 12px; }
+
+.head-info {
+  width: 100%;
+  padding: 0 20px;
+  background-color: #000;
+  color: #fff; }
+  .head-info .strap-line {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    color: #696969;
+    margin-bottom: 25px; }
+  .head-info .title {
+    font-size: 38px;
+    line-height: 32px;
+    letter-spacing: -0.05em;
+    font-weight: bold;
+    text-transform: uppercase; }
+    .head-info .title .subtitle {
+      font-weight: 100;
+      text-transform: none; }
+  .head-info .intro {
+    font-family: 'ProximaNova';
+    font-weight: 300;
+    font-size: 1em;
+    letter-spacing: -0.03em;
+    margin-top: 15px; }
+  .head-info .author {
+    font-weight: bold;
+    font-size: 0.8em;
+    line-height: 1;
+    background-color: transparent;
+    font-family: 'ProximaNova';
+    vertical-align: baseline; }
+
+.wrapper {
+  position: relative;
+  height: 100%; }
+  .wrapper .caption {
+    color: #9d9c9c; }
+    .wrapper .caption span {
+      color: white; }
+
+.content-area {
+  padding: 0; }
+
+.cover {
+  background-color: #000 !important; }
+  .cover .default-image {
+    height: 450px !important;
+    background-position: center center !important;
+    background-size: cover !important; }
+
+.content-body > p, .content-page p {
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 146.67%;
+  color: white; }
+
+.content-body, .content-page {
+  background-color: black;
+  font-family: 'ProximaNova'; }
+  .content-body h3, .content-page h3 {
+    font-size: 1.67em;
+    font-weight: bold;
+    letter-spacing: -0.02em;
+    color: #696969;
+    text-transform: uppercase;
+    line-height: 1em; }
+  .content-body figcaption, .content-page figcaption {
+    text-align: left;
+    font-weight: bold;
+    font-size: 0.867em;
+    color: #666666;
+    line-height: 138.46%; }
+  .content-body p.pullQuote, .content-page p.pullQuote {
+    font-size: 1.2em;
+    padding: 20px 25px;
+    color: #009591;
+    text-transform: uppercase;
+    position: relative;
+    background-color: white;
+    border: 1px solid black; }
+  .content-body p.pullQuote:before, .content-page p.pullQuote:before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    border: 1px solid #fff;
+    height: 100%;
+    width: 100%;
+    border-radius: 10%; }
+
+.footer .nav-dots .dot.active {
+  background-color: #009591; }
+
+.tablet #t1, .tablet .container, .tablet .content-area, .tablet .content-page {
+  height: 100%; }
+.tablet .cover {
+  position: absolute;
+  z-index: 9999;
+  min-height: 200px;
+  box-sizing: border-box;
+  padding-bottom: 30px; }
+  .tablet .cover .intro {
+    width: 100%; }
+  .tablet .cover .author {
+    padding: 0; }
+.tablet .page {
+  float: left;
+  overflow: hidden;
+  height: calc(100% - 70px);
+  position: relative;
+  box-sizing: border-box; }
+  .tablet .page .image {
+    text-align: center;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; }
+    .tablet .page .image img {
+      max-width: 100%;
+      height: auto;
+      display: none; }
+  .tablet .page a {
+    text-decoration: none; }
+  .tablet .page .info {
+    position: absolute;
+    bottom: 0;
+    height: 20%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 25px 20px 15px 20px;
+    background-color: black;
+    box-sizing: border-box; }
+    .tablet .page .info p {
+      margin: 12px 0 0 0; }
+.tablet .page:nth-of-type(1) {
+  padding-top: 0; }
+.tablet .page:not(:nth-of-type(1)) .image {
+  margin-top: 120px; }
+.tablet .landscape .cover {
+  min-height: 215px; }
+  .tablet .landscape .cover .banner .subtitle {
+    width: 270px; }
+  .tablet .landscape .cover .default-image {
+    margin-left: 80px; }
+  .tablet .landscape .cover .head-info {
+    position: relative;
+    padding: 0 20px 25px 80px; }
+    .tablet .landscape .cover .head-info .title, .tablet .landscape .cover .head-info .intro {
+      text-shadow: none; }
+    .tablet .landscape .cover .head-info .intro {
+      margin-bottom: 0;
+      width: 820px; }
+.tablet .landscape .page .image {
+  width: calc(100% - 440px);
+  position: absolute;
+  margin-left: 80px;
+  bottom: 0;
+  left: 0; }
+.tablet .landscape .page .info {
+  position: absolute;
+  width: 300px;
+  height: 350px;
+  bottom: 0;
+  right: 20px;
+  padding: 25px 50px 0 0;
+  box-sizing: border-box; }
+.tablet .landscape .page:not(:nth-of-type(1)) .image {
+  height: calc(100% - 120px); }
+
+.mobile .header {
+  display: none; }
+.mobile .cover {
+  width: 100% !important;
+  float: none;
+  padding: 0 !important; }
+  .mobile .cover .banner {
+    padding: 0 15px;
+    height: auto; }
+    .mobile .cover .banner .logo {
+      font-size: 12px;
+      padding: 28px 5px 5px 5px;
+      line-height: 12px;
+      height: 45px; }
+    .mobile .cover .banner .subtitle {
+      margin: 8px 0 0 0;
+      font-size: 15px;
+      line-height: 166.67%; }
+    .mobile .cover .banner .title {
+      margin: 0;
+      font-size: 37.5px;
+      line-height: 70.38%; }
+.mobile .default-image {
+  display: none !important; }
+.mobile .content-body img, .mobile .content-page img {
+  padding-bottom: 0; }
+.mobile .content-body h3, .mobile .content-page h3 {
+  margin-top: 7px !important; }
+.mobile .head-info {
+  padding: 12px 15px 15px 15px; }
+  .mobile .head-info .title {
+    font-size: 1.93em;
+    line-height: 111.11%;
+    margin: 0; }
+  .mobile .head-info .intro {
+    font-size: 0.86em;
+    letter-spacing: normal;
+    margin: 8px 0 0 0; }
+  .mobile .head-info .subtitle {
+    display: block; }
+  .mobile .head-info .author {
+    font-size: 0.714em;
+    line-height: 180%;
+    padding: 0;
+    letter-spacing: -0.03em;
+    box-sizing: border-box; }
+
+/*# sourceMappingURL=ioscentral_accessories.css.map */

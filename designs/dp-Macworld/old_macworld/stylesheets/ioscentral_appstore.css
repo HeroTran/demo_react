@@ -1,0 +1,227 @@
+html, body, .ioscentral_appstore, .container, .content-area {
+  height: 100%; }
+
+.banner {
+  height: 193px;
+  box-sizing: border-box;
+  padding: 0 20px 20px 20px;
+  font-family: 'ProximaNova'; }
+  .banner .logo {
+    font-weight: bold;
+    display: inline-block;
+    color: white;
+    box-sizing: border-box;
+    height: 44px;
+    font-size: 15px;
+    line-height: 15px;
+    text-transform: uppercase;
+    padding: 20px 10px 10px 10px;
+    background-color: #009591; }
+  .banner .title, .banner .subtitle {
+    text-transform: uppercase;
+    letter-spacing: -0.03em;
+    font-weight: bold;
+    margin-left: 35px;
+    box-sizing: border-box; }
+  .banner .title {
+    font-size: 57px;
+    color: #555555;
+    line-height: 50px;
+    margin-top: 3px;
+    margin-bottom: 12px; }
+  .banner .subtitle {
+    font-size: 20px;
+    color: #009591;
+    margin: 38px 0 0 35px; }
+
+.head-info {
+  width: 100%;
+  margin-top: 40px;
+  padding: 0 0 0 55px;
+  background-color: white;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  height: 224px; }
+  .head-info .strap-line {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    color: #696969;
+    margin-bottom: 25px;
+    text-transform: none; }
+  .head-info .intro {
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 146.66%;
+    letter-spacing: -0.03em; }
+
+.cover {
+  width: calc(100% - 310px) !important;
+  padding-right: 20px !important;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background: #fff;
+  float: left; }
+  .cover .default-image {
+    text-align: center;
+    padding-left: 55px;
+    box-sizing: border-box;
+    background: none !important;
+    height: auto !important; }
+    .cover .default-image img {
+      display: block !important;
+      max-width: 100%; }
+
+.content-area {
+  padding: 0; }
+  .content-area .content-body > p {
+    font-weight: 300;
+    font-size: 0.93em;
+    line-height: 128.57%;
+    letter-spacing: -0.01em;
+    margin-bottom: 10px; }
+  .content-area .content-body {
+    font-family: 'ProximaNova';
+    background: linear-gradient(to right, #dcddde, rgba(220, 221, 222, 0));
+    padding: 190px 55px 160px 20px !important;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 999;
+    height: 100%;
+    width: 310px;
+    right: 0;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch; }
+    .content-area .content-body h3 {
+      font-size: 1.33em;
+      font-weight: bold;
+      line-height: 1.6 !important;
+      color: #555555;
+      letter-spacing: -0.03em; }
+    .content-area .content-body .object-left {
+      width: auto;
+      margin-top: 2px; }
+      .content-area .content-body .object-left .image {
+        width: 50px !important;
+        height: 50px;
+        margin-bottom: 0;
+        margin-right: 5px;
+        background-color: transparent; }
+
+.container.scroll .icon, .cover.scroll .icon {
+  display: block; }
+
+.icon {
+  display: none;
+  background-image: url(../images/icon_scroll.png);
+  width: 30px;
+  position: absolute;
+  z-index: 998;
+  bottom: 50px;
+  right: 6px;
+  height: 30px;
+  background-size: 100% 100%; }
+
+p.photo-credit {
+  font-family: 'ProximaNovaCond';
+  font-weight: normal;
+  border-top: 3px solid #c5323c;
+  border-bottom: 3px solid #c5323c;
+  padding: 18px 0; }
+  p.photo-credit h3 {
+    font-family: 'ProximaNova';
+    font-size: 2em;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #c5323c; }
+    p.photo-credit h3 b {
+      font-weight: 600; }
+
+.landscape .cover {
+  width: calc(100% - 360px) !important; }
+  .landscape .cover.scroll .icon {
+    right: 30px; }
+.landscape .default-image {
+  text-align: left;
+  padding-left: 75px; }
+.landscape .head-info {
+  height: 165px;
+  width: 530px;
+  padding-left: 75px; }
+  .landscape .head-info .intro {
+    color: #000;
+    min-height: 100px; }
+.landscape .head-info .intro, .landscape .banner {
+  text-shadow: none; }
+.landscape .banner .title, .landscape .banner .subtitle {
+  text-shadow: none;
+  margin-left: 55px; }
+.landscape .content-body {
+  width: 360px;
+  padding: 85px 40px 50px 30px !important; }
+
+.mobile html, .mobile body, .mobile .ioscentral_appstore, .mobile .container, .mobile .content-area {
+  height: auto; }
+.mobile .header {
+  display: none; }
+.mobile .cover {
+  width: 100% !important;
+  float: none;
+  padding: 0 !important; }
+  .mobile .cover .banner {
+    padding: 0 15px;
+    height: auto;
+    margin-bottom: 25px; }
+    .mobile .cover .banner .logo {
+      font-size: 12px;
+      padding: 28px 5px 5px 5px;
+      line-height: 12px;
+      height: 45px; }
+    .mobile .cover .banner .subtitle {
+      margin: 8px 0 0 0;
+      font-size: 15px;
+      line-height: 166.67%; }
+    .mobile .cover .banner .title {
+      margin: 0;
+      font-size: 37.5px;
+      line-height: 70.38%; }
+.mobile .head-info {
+  padding: 0 15px;
+  overflow: initial;
+  max-height: none;
+  margin-top: 0;
+  height: auto; }
+  .mobile .head-info .strap-line {
+    font-size: 1.93em;
+    line-height: 100%;
+    margin: 0;
+    text-transform: none; }
+  .mobile .head-info .intro {
+    font-size: 0.86em;
+    line-height: 150%;
+    letter-spacing: -0.03em; }
+.mobile .default-image {
+  padding: 15px; }
+.mobile .content-body {
+  position: relative;
+  padding: 15px 15px 20px 15px !important;
+  height: auto;
+  width: 100%;
+  overflow: initial; }
+  .mobile .content-body p {
+    text-indent: 0 !important; }
+  .mobile .content-body > h3:nth-of-type(1) {
+    margin-top: 5px; }
+  .mobile .content-body .object-left {
+    padding-right: 0; }
+
+.mode-1 .portrait .head-info,
+.mode-1 .cover .banner {
+  background-color: black; }
+.mode-1 .cover {
+  background-color: #000 !important; }
+
+/*# sourceMappingURL=ioscentral_appstore.css.map */
